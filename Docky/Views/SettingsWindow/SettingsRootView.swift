@@ -238,14 +238,14 @@ struct SettingsRootView: View {
                     }
                     .disabled(!canGoBack)
                     .keyboardShortcut("[", modifiers: .command)
-                    .help("Back")
+                    .help(L10n.text("Back"))
 
                     Button(action: goForward) {
                         Image(systemName: "chevron.right")
                     }
                     .disabled(!canGoForward)
                     .keyboardShortcut("]", modifiers: .command)
-                    .help("Forward")
+                    .help(L10n.text("Forward"))
                 }
             }
         }

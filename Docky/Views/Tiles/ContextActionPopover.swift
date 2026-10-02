@@ -438,7 +438,7 @@ struct MoreActionsButton: View {
                 .shadow(color: .black.opacity(0.4), radius: 3, y: 1)
         }
         .buttonStyle(.plain)
-        .help("More actions")
+        .help(L10n.text("More actions"))
         .background(
             MoreActionsMenuAnchor(
                 trigger: triggerCount,

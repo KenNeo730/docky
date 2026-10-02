@@ -1432,7 +1432,7 @@ private struct LaunchpadOverlayView: View {
             .menuStyle(.borderlessButton)
             .menuIndicator(.hidden)
             .fixedSize()
-            .help("Launchpad Options")
+            .help(L10n.text("Launchpad Options"))
         }
         .padding(.horizontal, 12)
         .padding(.vertical, 8)

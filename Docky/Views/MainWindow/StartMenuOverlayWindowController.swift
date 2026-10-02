@@ -752,7 +752,7 @@ private struct StartMenuView: View {
                     .contentShape(Rectangle())
             }
             .buttonStyle(.plain)
-            .help("Docky Settings")
+            .help(L10n.text("Docky Settings"))
 
             Menu {
                 Button(SystemAction.sleep.title) { SystemAction.sleep.perform() }

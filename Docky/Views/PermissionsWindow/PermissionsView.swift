@@ -693,7 +693,7 @@ private struct PageDots: View {
             }
         }
         .accessibilityElement(children: .ignore)
-        .accessibilityLabel("Step \(currentIndex + 1) of \(max(totalPages, 1))")
+        .accessibilityLabel(L10n.text("Step %lld of %lld", currentIndex + 1, max(totalPages, 1)))
     }
 }
 

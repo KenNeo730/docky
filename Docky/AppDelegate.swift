@@ -109,10 +109,10 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuItemValidation {
 
         if let firstError {
             let alert = NSAlert()
-            alert.messageText = "Could not import theme"
+            alert.messageText = L10n.text("Could not import theme")
             alert.informativeText = firstError
             alert.alertStyle = .warning
-            alert.addButton(withTitle: "OK")
+            alert.addButton(withTitle: L10n.text("OK"))
             alert.runModal()
         }
     }
@@ -257,17 +257,17 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuItemValidation {
                 try? FileManager.default.removeItem(at: staged.deletingLastPathComponent())
 
                 let alert = NSAlert()
-                alert.messageText = "Widget installed"
-                alert.informativeText = "Restart Docky to start using \(downloadURL.lastPathComponent)."
+                alert.messageText = L10n.text("Widget installed")
+                alert.informativeText = L10n.text("Restart Docky to start using %@.", downloadURL.lastPathComponent)
                 alert.alertStyle = .informational
-                alert.addButton(withTitle: "Restart Docky")
-                alert.addButton(withTitle: "Later")
+                alert.addButton(withTitle: L10n.text("Restart Docky"))
+                alert.addButton(withTitle: L10n.text("Later"))
                 if alert.runModal() == .alertFirstButtonReturn {
                     NSApp.terminate(nil)
                 }
             } catch {
                 presentInstallAlert(
-                    title: "Couldn't install widget",
+                    title: L10n.text("Couldn't install widget"),
                     message: (error as? LocalizedError)?.errorDescription ?? error.localizedDescription,
                     style: .warning
                 )
@@ -279,11 +279,11 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuItemValidation {
     /// user to the toggle rather than silently doing nothing.
     private func presentLinkInstallsDisabledAlert() {
         let alert = NSAlert()
-        alert.messageText = "Installing widgets from links is off"
-        alert.informativeText = "For safety, Docky won't install a widget from a link until you turn this on in Settings › Widget Store."
+        alert.messageText = L10n.text("Installing widgets from links is off")
+        alert.informativeText = L10n.text("For safety, Docky won't install a widget from a link until you turn this on in Settings › Widget Store.")
         alert.alertStyle = .informational
-        alert.addButton(withTitle: "Open Settings")
-        alert.addButton(withTitle: "Cancel")
+        alert.addButton(withTitle: L10n.text("Open Settings"))
+        alert.addButton(withTitle: L10n.text("Cancel"))
         if alert.runModal() == .alertFirstButtonReturn {
             SettingsNavigator.shared.requestPane(id: "externalWidgets")
         }
@@ -293,11 +293,11 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuItemValidation {
     /// install is always a deliberate choice.
     private func confirmLinkInstall(host: String) -> Bool {
         let alert = NSAlert()
-        alert.messageText = "Install a widget from “\(host)”?"
-        alert.informativeText = "Widgets are native plugins that run inside Docky with the same access Docky has — Accessibility, Automation, files, and more. Docky can't verify what a widget does. Only continue if you trust this source."
+        alert.messageText = L10n.text("Install a widget from “%@”?", host)
+        alert.informativeText = L10n.text("Widgets are native plugins that run inside Docky with the same access Docky has — Accessibility, Automation, files, and more. Docky can't verify what a widget does. Only continue if you trust this source.")
         alert.alertStyle = .warning
-        alert.addButton(withTitle: "Cancel")
-        alert.addButton(withTitle: "Download & Install")
+        alert.addButton(withTitle: L10n.text("Cancel"))
+        alert.addButton(withTitle: L10n.text("Download & Install"))
         return alert.runModal() == .alertSecondButtonReturn
     }
 
@@ -306,7 +306,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuItemValidation {
         alert.messageText = title
         alert.informativeText = message
         alert.alertStyle = style
-        alert.addButton(withTitle: "OK")
+        alert.addButton(withTitle: L10n.text("OK"))
         alert.runModal()
     }
 
@@ -735,10 +735,10 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuItemValidation {
             }
 
             let confirm = NSAlert()
-            confirm.messageText = "Override \(dockyKeys.count) docky.* keys?"
-            confirm.informativeText = "Existing docky.* UserDefaults will be cleared first, then replaced with the values from \(url.lastPathComponent). Docky will relaunch after."
-            confirm.addButton(withTitle: "Override and Relaunch")
-            confirm.addButton(withTitle: "Cancel")
+            confirm.messageText = L10n.text("Override %lld docky.* keys?", dockyKeys.count)
+            confirm.informativeText = L10n.text("Existing docky.* UserDefaults will be cleared first, then replaced with the values from %@. Docky will relaunch after.", url.lastPathComponent)
+            confirm.addButton(withTitle: L10n.text("Override and Relaunch"))
+            confirm.addButton(withTitle: L10n.text("Cancel"))
             guard confirm.runModal() == .alertFirstButtonReturn else { return }
 
             let defaults = UserDefaults.standard
@@ -753,7 +753,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuItemValidation {
             relaunchApp()
         } catch {
             let alert = NSAlert()
-            alert.messageText = "Couldn't apply override"
+            alert.messageText = L10n.text("Couldn't apply override")
             alert.informativeText = error.localizedDescription
             alert.alertStyle = .warning
             alert.runModal()

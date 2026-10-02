@@ -27,7 +27,7 @@ struct WidgetsSettingsView: View {
             unlockedContent
         }
         .formStyle(.grouped)
-        .navigationTitle("Widget Store")
+        .navigationTitle(L10n.text("Widget Store"))
         .onAppear {
             refresh()
             loadMarketplace()
@@ -312,7 +312,7 @@ struct WidgetsSettingsView: View {
                 Image(systemName: "magnifyingglass")
             }
             .buttonStyle(.borderless)
-            .help("Reveal in Finder")
+            .help(L10n.text("Reveal in Finder"))
 
             Button(role: .destructive) {
                 bundleURLPendingDeletion = entry.bundleURL
@@ -320,7 +320,7 @@ struct WidgetsSettingsView: View {
                 Image(systemName: "trash")
             }
             .buttonStyle(.borderless)
-            .help("Delete this widget")
+            .help(L10n.text("Delete this widget"))
         }
     }
 

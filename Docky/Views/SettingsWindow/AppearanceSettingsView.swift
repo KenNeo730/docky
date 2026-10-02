@@ -269,7 +269,7 @@ struct AppearanceSettingsView: View {
             .padding(.vertical, 2)
             .background(.orange.opacity(0.15), in: Capsule())
             .overlay(Capsule().stroke(.orange.opacity(0.4), lineWidth: 0.5))
-            .accessibilityLabel("Alpha feature")
+            .accessibilityLabel(L10n.text("Alpha feature"))
     }
 
     @ViewBuilder
