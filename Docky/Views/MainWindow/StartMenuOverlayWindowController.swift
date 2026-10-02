@@ -672,7 +672,7 @@ private struct StartMenuView: View {
 
     private func sectionHeader(_ title: String) -> some View {
         HStack {
-            Text(title)
+            Text(L10n.text(title))
                 .font(.system(size: 12, weight: .semibold))
                 .foregroundStyle(.secondary)
                 .textCase(.uppercase)

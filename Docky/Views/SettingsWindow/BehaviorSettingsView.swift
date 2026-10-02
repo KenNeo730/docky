@@ -135,7 +135,7 @@ struct BehaviorSettingsView: View {
 
                     Picker("Spaces", selection: $preferences.windowSpaceBehavior) {
                         ForEach(DockWindowSpaceBehavior.allCases) { behavior in
-                            Text(behavior.title).tag(behavior)
+                            Text(L10n.text(behavior.title)).tag(behavior)
                         }
                     }
                     .pickerStyle(.menu)
@@ -248,7 +248,7 @@ struct BehaviorSettingsView: View {
 
                     Picker("Maximized Windows", selection: $preferences.maximizedWindowBehavior) {
                         ForEach(MaximizedWindowBehavior.allCases) { behavior in
-                            Text(behavior.title).tag(behavior)
+                            Text(L10n.text(behavior.title)).tag(behavior)
                         }
                     }
                     .pickerStyle(.menu)
@@ -270,7 +270,7 @@ struct BehaviorSettingsView: View {
 
                     Picker("Overflow Behavior", selection: $preferences.overflowBehavior) {
                         ForEach(DockOverflowBehavior.allCases) { behavior in
-                            Text(behavior.title).tag(behavior)
+                            Text(L10n.text(behavior.title)).tag(behavior)
                         }
                     }
                     .pickerStyle(.menu)

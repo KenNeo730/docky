@@ -214,7 +214,7 @@ struct SettingsRootView: View {
             List(selection: $selection) {
                 ForEach(settingsSections) { section in
                     if let title = section.title {
-                        Section(title) {
+                        Section(L10n.text(title)) {
                             paneRows(section.panes)
                         }
                     } else {
@@ -297,7 +297,7 @@ struct SettingsRootView: View {
         ForEach(panes) { pane in
             HStack(spacing: 8) {
                 PaneIconBadge(symbol: pane.symbolName, color: pane.tileColor)
-                Text(pane.title)
+                Text(L10n.text(pane.title))
                 Spacer(minLength: 8)
             }
             .tag(pane)
@@ -336,7 +336,7 @@ private struct SettingsDetailView: View {
             selectedView
                 .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
         }
-        .navigationTitle(pane.title)
+        .navigationTitle(L10n.text(pane.title))
     }
 
     @ViewBuilder
