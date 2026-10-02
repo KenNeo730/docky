@@ -577,7 +577,7 @@ private struct StartMenuView: View {
     /// already shows all matching apps in that case).
     private var appsSectionHeader: some View {
         HStack(spacing: 8) {
-            Text(appsSectionTitle)
+            Text(L10n.text(appsSectionTitle))
                 .font(.system(size: 12, weight: .semibold))
                 .foregroundStyle(.secondary)
                 .textCase(.uppercase)

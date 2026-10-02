@@ -307,7 +307,7 @@ struct AppearanceSettingsView: View {
     private func dividerImageRow(title: String?, path: String?, onChoose: @escaping () -> Void, onClear: @escaping () -> Void) -> some View {
         VStack(alignment: .leading, spacing: 6) {
             if let title {
-                Text(title)
+                Text(L10n.text(title))
             }
 
             HStack {
@@ -805,7 +805,7 @@ struct AppearanceSettingsView: View {
         effectiveRadius: CGFloat?
     ) -> some View {
         VStack(alignment: .leading, spacing: 8) {
-            Text(title).font(.headline)
+            Text(L10n.text(title)).font(.headline)
 
             widgetOverrideRow(
                 label: "Content Padding",

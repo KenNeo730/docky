@@ -2384,7 +2384,7 @@ private struct TileTooltipView: View {
     let title: String
 
     var body: some View {
-        Text(title)
+        Text(L10n.text(title))
             .font(.callout.weight(.medium))
             .foregroundStyle(.primary)
             .multilineTextAlignment(.center)

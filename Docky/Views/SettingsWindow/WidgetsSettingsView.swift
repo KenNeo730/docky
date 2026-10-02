@@ -286,7 +286,7 @@ struct WidgetsSettingsView: View {
                     Text(entry.displayName)
                         .font(.headline)
                     if let badge = entry.status.badgeText {
-                        Text(badge)
+                        Text(L10n.text(badge))
                             .font(.caption2.weight(.semibold))
                             .padding(.horizontal, 6)
                             .padding(.vertical, 2)
@@ -298,7 +298,7 @@ struct WidgetsSettingsView: View {
                     .font(.caption)
                     .foregroundStyle(.secondary)
                 if case .failed(let reason) = entry.status {
-                    Text(reason)
+                    Text(L10n.text(reason))
                         .font(.caption)
                         .foregroundStyle(.red)
                 }

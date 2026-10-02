@@ -91,7 +91,7 @@ struct BehaviorSettingsView: View {
 
                     Picker("Window Position", selection: $preferences.windowPosition) {
                         ForEach(DockWindowPosition.allCases) { position in
-                            Text(position.title).tag(position)
+                            Text(L10n.text(position.title)).tag(position)
                         }
                     }
                     .pickerStyle(.menu)
@@ -113,7 +113,7 @@ struct BehaviorSettingsView: View {
 
                     Picker("Display", selection: $preferences.windowDisplayTarget) {
                         ForEach(DockWindowDisplayTarget.allCases) { target in
-                            Text(target.title).tag(target)
+                            Text(L10n.text(target.title)).tag(target)
                         }
                     }
                     .pickerStyle(.menu)
@@ -255,7 +255,7 @@ struct BehaviorSettingsView: View {
                     .labelsHidden()
                 }
 
-                Text(preferences.maximizedWindowBehavior.detail)
+                Text(L10n.text(preferences.maximizedWindowBehavior.detail))
                     .foregroundStyle(.secondary)
                     .fixedSize(horizontal: false, vertical: true)
             }
@@ -292,7 +292,7 @@ struct BehaviorSettingsView: View {
 
                     Picker("Window Axis Size", selection: $preferences.windowAxisSizing) {
                         ForEach(DockWindowAxisSizing.allCases) { sizing in
-                            Text(sizing.title).tag(sizing)
+                            Text(L10n.text(sizing.title)).tag(sizing)
                         }
                     }
                     .pickerStyle(.menu)
@@ -355,7 +355,7 @@ struct BehaviorSettingsView: View {
 
                     Picker("Folder Badges", selection: $preferences.folderBadgeMode) {
                         ForEach(FolderBadgeMode.allCases) { mode in
-                            Text(mode.title).tag(mode)
+                            Text(L10n.text(mode.title)).tag(mode)
                         }
                     }
                     .pickerStyle(.menu)
@@ -378,7 +378,7 @@ struct BehaviorSettingsView: View {
 
                     Picker("Per-App Badge Style", selection: $preferences.folderBadgePreviewStyle) {
                         ForEach(FolderBadgePreviewStyle.allCases) { style in
-                            Text(style.title).tag(style)
+                            Text(L10n.text(style.title)).tag(style)
                         }
                     }
                     .pickerStyle(.menu)
