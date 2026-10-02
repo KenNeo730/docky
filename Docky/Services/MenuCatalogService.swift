@@ -66,7 +66,9 @@ final class MenuCatalogService: ObservableObject {
                 author: package.author,
                 version: package.version,
                 reviewStatus: package.reviewStatus,
-                description: L10n.catalogText(id: "package.\(package.id).description", fallback: package.description),
+                description: package.description.map {
+                    L10n.catalogText(id: "package.\(package.id).description", fallback: $0)
+                },
                 actionCount: package.actions.count
             ))
 
