@@ -4035,6 +4035,17 @@
         }
       }
     },
+    "Fades an app's tile to half opacity while the app is hidden or has no windows open. Turn off to keep icons fully opaque regardless of state. Detecting open windows needs Accessibility permission.": {
+      "comment": "Rendered through a String-based path; not auto-extracted by Xcode.",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "将 App 图块淡化为半透明，前提是该 App 已隐藏或没有打开的窗口。关闭后无论状态如何，图标都保持完全不透明。检测打开的窗口需要辅助功能权限。"
+          }
+        }
+      }
+    },
     "Failed to Load": {
       "comment": "Rendered through a String-based path; not auto-extracted by Xcode.",
       "localizations": {
@@ -5551,6 +5562,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "资源库"
+          }
+        }
+      }
+    },
+    "Links like `docky://install-widget` let a web page install a widget. Off by default. Widgets are native plugins that run inside Docky with the same access Docky has — Accessibility, Automation, files, and more — and Docky doesn't sandbox or verify them, so only install widgets you trust. Installing a `.dockywidget` file yourself always works.": {
+      "comment": "Rendered through a String-based path; not auto-extracted by Xcode.",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "类似 `docky://install-widget` 的链接可让网页安装小组件。默认关闭。小组件是运行在 Docky 内部的原生插件，拥有与 Docky 相同的权限——辅助功能、自动化、文件访问等；Docky 不对其进行沙箱隔离或校验，因此请只安装你信任的小组件。手动安装 `.dockywidget` 文件始终可用。"
           }
         }
       }
@@ -10582,6 +10604,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "该主题包将从磁盘中移除。此操作无法撤销。"
+          }
+        }
+      }
+    },
+    "Themes": {
+      "comment": "Rendered through a String-based path; not auto-extracted by Xcode.",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "主题"
           }
         }
       }
