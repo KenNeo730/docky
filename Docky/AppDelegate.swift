@@ -402,15 +402,16 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuItemValidation {
 
     private func configureMainMenu() {
         let appMenu = NSApp.mainMenu?.items.first?.submenu
-        if let item = appMenu?.item(withTitle: "Preferences…") ?? appMenu?.item(withTitle: "Settings…") {
-            item.title = "Settings…"
+        let settingsTitle = L10n.text("Settings…")
+        if let item = appMenu?.item(withTitle: settingsTitle) {
             item.action = #selector(showSettingsWindow(_:))
             item.target = self
         }
 
-        if appMenu?.item(withTitle: "Check for Updates…") == nil {
+        let updatesTitle = L10n.text("Check for Updates…")
+        if appMenu?.item(withTitle: updatesTitle) == nil {
             let item = NSMenuItem(
-                title: "Check for Updates…",
+                title: updatesTitle,
                 action: #selector(checkForUpdates(_:)),
                 keyEquivalent: ""
             )
@@ -585,14 +586,14 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuItemValidation {
         windowPreviewsItem.target = self
 
         let settingsItem = NSMenuItem(
-            title: "Settings…",
+            title: L10n.text("Settings…"),
             action: #selector(showSettingsWindow(_:)),
             keyEquivalent: ","
         )
         settingsItem.target = self
 
         let checkForUpdatesItem = NSMenuItem(
-            title: "Check for Updates…",
+            title: L10n.text("Check for Updates…"),
             action: #selector(checkForUpdates(_:)),
             keyEquivalent: ""
         )
