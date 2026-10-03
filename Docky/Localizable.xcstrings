@@ -30257,34 +30257,6 @@
         }
       }
     },
-    "Restarting Docky…": {
-      "localizations": {
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "正在重启 Docky…"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "正在重啟 Docky…"
-          }
-        },
-        "zh-HK": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "正在重啟 Docky…"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Docky redémarre…"
-          }
-        }
-      }
-    },
     "Docky will restart to apply this change.": {
       "localizations": {
         "zh-Hans": {
