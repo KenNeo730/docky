@@ -29,6 +29,12 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuItemValidation {
         // Must precede any other AX work — applies process-wide.
         AXUIElementSetMessagingTimeout(AXUIElementCreateSystemWide(), 1.0)
 
+        // Redirects Bundle.main's string lookups at the in-app language choice.
+        // Installed before anything asks for a localized string so no surface
+        // slips through unresolved; the main menu bar is the one exception,
+        // because its nib loads before this delegate runs.
+        LanguageManager.shared.installOverride()
+
         window?.orderOut(nil)
         NSApplication.shared.setActivationPolicy(.accessory)
         configureMainMenu()

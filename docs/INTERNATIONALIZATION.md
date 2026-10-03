@@ -5,6 +5,21 @@ catalog (`Docky/Localizable.xcstrings`) for everything the SwiftUI layer renders
 This document explains how to add a language, and which call sites need manual
 attention because their APIs do not accept a `LocalizedStringKey`.
 
+### Shipped languages
+
+| Region | Files | Selected by |
+|---|---|---|
+| `en` (source) | `Localizable.xcstrings` | — |
+| `es` | `Localizable.xcstrings`, `es.lproj` | macOS |
+| `fr` | `Localizable.xcstrings`, `fr.lproj` | In-app picker |
+| `zh-Hans` | `Localizable.xcstrings`, `zh-Hans.lproj` | In-app picker |
+| `zh-Hant` (Taiwan) | `Localizable.xcstrings`, `zh-Hant.lproj` | In-app picker |
+| `zh-HK` (Hong Kong) | `Localizable.xcstrings`, `zh-HK.lproj` | In-app picker |
+
+Except for English, all of them are chosen inside **Settings → Application →
+Language** rather than in *System Settings → Language & Region*. See
+[In-app language](#in-app-language).
+
 ## How localization works here
 
 | Surface | Mechanism | Needs manual work? |
@@ -20,6 +35,39 @@ attention because their APIs do not accept a `LocalizedStringKey`.
 `L10n` (`Docky/Services/L10n.swift`) is the thin helper for the `String` cases.
 It falls back to the key itself when a translation is missing, so a partial
 translation degrades to readable English rather than a blank label.
+
+## In-app language
+
+`LanguageManager` (`Docky/Services/LanguageManager.swift`) lets the user override
+the macOS language for Docky alone, from **Settings → Application → Language**.
+
+It works by replacing a single Foundation method at launch:
+
+```
+Bundle.main.localizedString(forKey:value:table:)
+```
+
+That one method backs SwiftUI's automatic `LocalizedStringKey` resolution *and*
+every `String`-based call site, so the override covers all of them at once.
+The replacement resolves the key against
+`Contents/Resources/<region>.lproj/*.strings` — where Xcode compiles both
+`Localizable.xcstrings` and `MainMenu.strings` — and falls through to
+Foundation's original implementation whenever the language is **Follow System**
+or a key has no translation. The fall-through is what keeps behaviour identical
+to a stock build.
+
+Two consequences worth knowing:
+
+- **The override installs in `applicationDidFinishLaunching`**, before anything
+  asks for a string. The main menu bar is the exception: its nib loads earlier,
+  so a language change **restarts Docky** rather than mutating live menu items.
+- **`.strings` files never need a hand-written parser at build time.** Xcode
+  generates them from the catalog; `LanguageManager` only reads what is already
+  in the bundle.
+
+To add a language to the in-app picker: ship its `.lproj` and catalog column
+(step 1–4 below), then add a case to `AppLanguage` — one `region`, one
+`endonym`, one `AllCases` entry. Nothing else references the enumerable list.
 
 ## Adding a language
 
