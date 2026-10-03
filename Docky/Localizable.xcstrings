@@ -30452,6 +30452,34 @@
           }
         }
       }
+    },
+    "Pick the language Docky runs in. Choosing anything other than Follow System keeps Docky in that language even after you change the macOS language. Docky restarts so the menu bar switches along with the rest of the interface.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "选择 Docky 使用的语言。选择「跟随系统」以外的语言后，即使你更改 macOS 的语言设置，Docky 仍会保持该语言。Docky 会重启，让菜单栏与界面一同切换。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "選擇 Docky 使用的語言。選擇「跟隨系統」以外的語言後，即使你變更 macOS 的語言設定，Docky 仍會保持該語言。Docky 會重新啟動，讓選單列與介面一同切換。"
+          }
+        },
+        "zh-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "選擇 Docky 使用的語言。選擇「跟隨系統」以外的語言後，即使你變更 macOS 的語言設定，Docky 仍會保持該語言。Docky 會重新啟動，讓選單列與介面一同切換。"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisissez la langue de Docky. Si vous choisissez autre chose que Suivre le système, Docky reste dans cette langue même si vous changez celle de macOS. Docky redémarre pour que la barre de menus suive le reste de l'interface."
+          }
+        }
+      }
     }
   },
   "version": "1.1"

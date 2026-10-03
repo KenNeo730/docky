@@ -34,13 +34,13 @@ import ObjectiveC
 /// `.system` hands control back to the macOS language preference; every other
 /// case is selected inside the app and outlives a language change of the OS.
 enum AppLanguage: String, CaseIterable, Identifiable {
-    case system
-    case en
-    case zhHans
-    case zhHant
-    case zhHK
-    case fr
-    case es
+    case system = "system"
+    case en = "en"
+    case zhHans = "zh-Hans"
+    case zhHant = "zh-Hant"
+    case zhHK = "zh-HK"
+    case fr = "fr"
+    case es = "es"
 
     var id: String { rawValue }
 
@@ -119,6 +119,11 @@ final class LanguageManager {
     /// Must run on the main thread. Call it at the top of
     /// `applicationDidFinishLaunching` so no string is resolved before it.
     func installOverride() {
+        // Runs on every launch, not just the first override: the per-app
+        // language list is the source of truth for the main menu and can be
+        // reset outside the app (a defaults write, a restore from backup).
+        applyToPerAppLanguageList()
+
         guard !overrideInstalled else { return }
         guard let method = class_getInstanceMethod(
             Bundle.self,
@@ -155,6 +160,11 @@ final class LanguageManager {
         return nil
     }
 
+    /// Every region Docky ships a `MainMenu.strings` for. The English table is
+    /// not a localization — it carries the nib's own titles, which
+    /// `Base.lproj/MainMenu.nib` cannot expose at runtime.
+    private static let mainMenuRegions = ["en", "es", "fr", "zh-Hans", "zh-Hant", "zh-HK"]
+
     private func stringsTable(named name: String, region: String) -> [String: String]? {
         let cacheKey = "\(region)/\(name)"
         if let cached = tableCache[cacheKey] { return cached }
@@ -163,13 +173,15 @@ final class LanguageManager {
             .appendingPathComponent("\(region).lproj")
             .appendingPathComponent("\(name).strings")
 
+        let plist = NSDictionary(contentsOf: url) as? [String: String]
+
         // Two on-disk formats come out of the toolchain. `Localizable.strings`
         // is a property list — UTF-16 XML, which Foundation decodes but
         // `String(contentsOf:encoding:)` cannot read. `MainMenu.strings` stays
         // the plain `"key" = "value";` text format. Try the plist first and
         // fall back to the text parser so both survive.
         let table: [String: String]
-        if let plist = NSDictionary(contentsOf: url) as? [String: String] {
+        if let plist, !plist.isEmpty {
             table = plist
         } else if let raw = try? String(contentsOf: url, encoding: .utf8) {
             table = Self.parseStrings(raw)
@@ -202,6 +214,83 @@ final class LanguageManager {
                 NSApplication.shared.terminate(nil)
             }
         }
+    }
+
+    /// Re-titles the live main menu when the chosen language is not the one the
+    /// nib already loaded in.
+    ///
+    /// `MainMenu.xib` is loaded by `NSApplicationMain` before any Swift in this
+    /// app runs, so the per-app `AppleLanguages` list is the only thing that can
+    /// influence it — and macOS ignores an app that writes that key while it is
+    /// running. The nib's titles are therefore whatever the macOS language is,
+    /// and this walk swaps them. The ObjectIDs line every `MainMenu.strings`
+    /// table up, so a title-to-title map is enough — no nib surgery, no private
+    /// API. Call before `configureMainMenu()`, which looks items up by title.
+    func localizeMainMenu() {
+        guard let target = overrideRegion else {
+            return
+        }
+        guard let menu = NSApp.mainMenu else {
+            return
+        }
+        let titles = mainMenuTitleMap(to: target)
+
+        func walk(_ menu: NSMenu) {
+            for item in menu.items {
+                if let localized = titles[item.title] { item.title = localized }
+                if let submenu = item.submenu { walk(submenu) }
+            }
+        }
+        walk(menu)
+    }
+
+    /// Builds a "title as the nib spelled it" → "title in `target`" table.
+    ///
+    /// There is no way to ask which language the nib settled on, and it is not
+    /// worth guessing from `preferredLocalizations`: writing `AppleLanguages`
+    /// updates that list inside the running process, so it already reports the
+    /// target by the time this runs. Every shipped language is therefore treated
+    /// as a possible source. ObjectIDs keep the result unambiguous — two entries
+    /// that share a title in one language share it in all of them.
+    private func mainMenuTitleMap(to target: String) -> [String: String] {
+        guard let targetTable = stringsTable(named: "MainMenu", region: target) else { return [:] }
+
+        var titles: [String: String] = [:]
+        for region in Self.mainMenuRegions where region != target {
+            guard let table = stringsTable(named: "MainMenu", region: region) else { continue }
+            for (objectID, title) in table {
+                guard let translated = targetTable[objectID] else { continue }
+                titles[title] = translated
+            }
+        }
+        return titles
+    }
+
+    // MARK: Per-app language list
+
+    /// Mirrors the choice into this app's `AppleLanguages` preference.
+    ///
+    /// This is the part that actually governs the **main menu**. `MainMenu.xib`
+    /// is loaded by `NSApplicationMain` before any Swift in this app runs, so
+    /// the `Bundle.main` override below cannot reach it — the nib picks its
+    /// language from the app's own `AppleLanguages` list at load time. Writing
+    /// it there is what makes the menu bar change language too, and it takes
+    /// effect on the next launch, which is why a switch restarts Docky.
+    ///
+    /// "Follow System" removes the key so the macOS preference applies again.
+    func applyToPerAppLanguageList() {
+        let key = "AppleLanguages"
+        guard selected != .system else {
+            UserDefaults.standard.removeObject(forKey: key)
+            return
+        }
+
+        // Only the chosen language goes in. macOS seeds this key with the
+        // system language while the app runs, and those region codes carry a
+        // script suffix (`zh-Hans-CN`) that matches no `.lproj` on disk —
+        // appending them makes the whole list fail to resolve and Docky falls
+        // back to the system language even though the right entry is first.
+        UserDefaults.standard.set([selected.region], forKey: key)
     }
 
     // MARK: Parsing

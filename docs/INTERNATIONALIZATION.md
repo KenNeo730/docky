@@ -40,34 +40,60 @@ translation degrades to readable English rather than a blank label.
 
 `LanguageManager` (`Docky/Services/LanguageManager.swift`) lets the user override
 the macOS language for Docky alone, from **Settings → Application → Language**.
+Getting that right takes three pieces, because the main menu is loaded before
+any Swift in the app runs.
 
-It works by replacing a single Foundation method at launch:
+**1. A `Bundle.main` override — everything Swift resolves.**
+`installOverride()` replaces `Bundle.main.localizedString(forKey:value:table:)`.
+That one method backs both SwiftUI's automatic `LocalizedStringKey` resolution
+*and* every `String`-based call site, so the override covers all of them at
+once. It reads the `.strings` files Xcode already compiled into
+`Contents/Resources/<region>.lproj/` — a property list for `Localizable`, plain
+text for `MainMenu` — and falls through to Foundation's original
+implementation whenever the language is "Follow System" or a key has no
+translation, which keeps behaviour identical to a stock build.
 
-```
-Bundle.main.localizedString(forKey:value:table:)
-```
+**2. A menu re-title pass — the main menu.**
+`NSApplicationMain` loads `MainMenu.xib` before the app delegate runs, so its
+titles are already fixed by the time (1) is installed. `localizeMainMenu()`
+walks the live menu and swaps each title into the target region's. The
+ObjectIDs line every `MainMenu.strings` table up, so a title-to-title map is
+enough — no nib surgery, no private API. It runs just before
+`configureMainMenu()`, which looks items up by title.
 
-That one method backs SwiftUI's automatic `LocalizedStringKey` resolution *and*
-every `String`-based call site, so the override covers all of them at once.
-The replacement resolves the key against
-`Contents/Resources/<region>.lproj/*.strings` — where Xcode compiles both
-`Localizable.xcstrings` and `MainMenu.strings` — and falls through to
-Foundation's original implementation whenever the language is **Follow System**
-or a key has no translation. The fall-through is what keeps behaviour identical
-to a stock build.
+Which language the nib settled on cannot be queried, and guessing from
+`preferredLocalizations` does not work: writing `AppleLanguages` updates that
+list inside the running process, so it already reports the *target* by the time
+this runs. Every shipped language is therefore treated as a possible source.
+That is why `en.lproj/MainMenu.strings` exists — not as a localization, but as
+the record of the nib's own titles, which `Base.lproj/MainMenu.nib` cannot
+expose at runtime. An English-language Mac is a supported case, not a nicety.
 
-Two consequences worth knowing:
+**3. The per-app `AppleLanguages` list — best effort for the next launch.**
+`applyToPerAppLanguageList()` mirrors the choice into the app's own
+`AppleLanguages` preference, which is what macOS consults *when the nib loads*.
+Useful when something outside the app writes that key, and it costs nothing.
+Two caveats learned the hard way:
 
-- **The override installs in `applicationDidFinishLaunching`**, before anything
-  asks for a string. The main menu bar is the exception: its nib loads earlier,
-  so a language change **restarts Docky** rather than mutating live menu items.
-- **`.strings` files never need a hand-written parser at build time.** Xcode
-  generates them from the catalog; `LanguageManager` only reads what is already
-  in the bundle.
+- macOS **ignores an app writing that key at runtime**, so (2) is what makes a
+  switch take effect. This entry is a convenience, not the mechanism.
+- Write **only** the selected region. macOS seeds the key with the system
+  language while the app runs, and those region codes carry a script suffix
+  (`zh-Hans-CN`) matching no `.lproj` on disk; appending them makes the whole
+  list fail to resolve and Docky silently falls back to the system language.
+- Do **not** add `CFBundleLocalizations` to `Config/Info.plist` to help with
+  this. Doing so makes macOS validate the list against it and reject the whole
+  array, which breaks even languages that otherwise work.
 
-To add a language to the in-app picker: ship its `.lproj` and catalog column
-(step 1–4 below), then add a case to `AppLanguage` — one `region`, one
-`endonym`, one `AllCases` entry. Nothing else references the enumerable list.
+A language change restarts Docky. Not for the menu — (2) handles that live — but
+because the rest of the interface is composed once per process and rebuilding
+it in place is not worth the churn.
+
+### Adding a language to the picker
+
+Ship the `.lproj` and the catalog column (the four steps below), then add a
+case to `AppLanguage` — one `region`, one `endonym`. `AllCases` drives the
+picker; nothing else references the list.
 
 ## Adding a language
 

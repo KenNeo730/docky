@@ -19,7 +19,7 @@ struct LanguageSettingsView: View {
                 .font(.system(size: 22, weight: .semibold))
 
             Text(L10n.text(
-                "Pick the language Docky runs in. Choosing anything other than Follow System keeps Docky in that language even after you change the macOS language. The menu bar is rebuilt by the system, so Docky restarts to apply the change."
+                "Pick the language Docky runs in. Choosing anything other than Follow System keeps Docky in that language even after you change the macOS language. Docky restarts so the menu bar switches along with the rest of the interface."
             ))
             .font(.callout)
             .foregroundStyle(.secondary)

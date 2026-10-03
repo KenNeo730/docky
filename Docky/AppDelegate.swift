@@ -31,9 +31,13 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuItemValidation {
 
         // Redirects Bundle.main's string lookups at the in-app language choice.
         // Installed before anything asks for a localized string so no surface
-        // slips through unresolved; the main menu bar is the one exception,
-        // because its nib loads before this delegate runs.
+        // slips through unresolved.
         LanguageManager.shared.installOverride()
+
+        // The main menu nib loads before this delegate runs, so its titles come
+        // from the macOS language. Re-title them before configureMainMenu() looks
+        // anything up by title.
+        LanguageManager.shared.localizeMainMenu()
 
         window?.orderOut(nil)
         NSApplication.shared.setActivationPolicy(.accessory)
