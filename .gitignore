@@ -10,3 +10,9 @@ DerivedData/
 # Python
 __pycache__/
 *.pyc
+
+# Local build workaround only — see docs/INTERNATIONALIZATION.md.
+# Sparkle is consumed through Swift Package Manager; this prebuilt copy exists
+# solely so a sandboxed build can skip manifest compilation, and the patch that
+# points the project at it lives on the local/sparkle-xcframework branch.
+Frameworks/Sparkle.xcframework/
