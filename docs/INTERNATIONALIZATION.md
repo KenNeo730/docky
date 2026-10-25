@@ -9,15 +9,15 @@ attention because their APIs do not accept a `LocalizedStringKey`.
 
 | Region | Files | Selected by |
 |---|---|---|
-| `en` (source) | `Localizable.xcstrings` | — |
-| `es` | `Localizable.xcstrings`, `es.lproj` | macOS |
+| `en` (source) | `Localizable.xcstrings` | In-app picker |
+| `es` | `Localizable.xcstrings`, `es.lproj` | In-app picker |
 | `fr` | `Localizable.xcstrings`, `fr.lproj` | In-app picker |
 | `zh-Hans` | `Localizable.xcstrings`, `zh-Hans.lproj` | In-app picker |
 | `zh-Hant` (Taiwan) | `Localizable.xcstrings`, `zh-Hant.lproj` | In-app picker |
 | `zh-HK` (Hong Kong) | `Localizable.xcstrings`, `zh-HK.lproj` | In-app picker |
 
-Except for English, all of them are chosen inside **Settings → Application →
-Language** rather than in *System Settings → Language & Region*. See
+All of them can be chosen inside **Settings → System → Language**. "Follow
+System" leaves the choice to *System Settings → Language & Region*. See
 [In-app language](#in-app-language).
 
 ## How localization works here
@@ -39,7 +39,7 @@ translation degrades to readable English rather than a blank label.
 ## In-app language
 
 `LanguageManager` (`Docky/Services/LanguageManager.swift`) lets the user override
-the macOS language for Docky alone, from **Settings → Application → Language**.
+the macOS language for Docky alone, from **Settings → System → Language**.
 Getting that right takes three pieces, because the main menu is loaded before
 any Swift in the app runs.
 

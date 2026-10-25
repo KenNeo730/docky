@@ -172,13 +172,11 @@ private let settingsSections: [SettingsSection] = [
         .behaviorLaunch,
         .behaviorSystemDock,
         .permissions,
-        .updates
+        .updates,
+        .language
     ]),
     SettingsSection(id: "support", title: "Support", panes: [
         .feedback
-    ]),
-    SettingsSection(id: "application", title: "Application", panes: [
-        .language
     ])
 ]
 

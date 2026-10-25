@@ -771,20 +771,6 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuItemValidation {
         }
     }
 
-    private func relaunchApp() {
-        let bundlePath = Bundle.main.bundlePath
-        let task = Process()
-        task.launchPath = "/usr/bin/open"
-        task.arguments = ["-n", "-a", bundlePath]
-        do {
-            try task.run()
-        } catch {
-            NSLog("[Docky] Relaunch failed: \(error.localizedDescription)")
-            return
-        }
-        NSApp.terminate(nil)
-    }
-
     private static func formatOSVersion(_ version: OperatingSystemVersion) -> String {
         if version.patchVersion > 0 {
             return "\(version.majorVersion).\(version.minorVersion).\(version.patchVersion)"
@@ -890,4 +876,21 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuItemValidation {
         debugSnapshotTextView?.string = debugSnapshotText()
     }
     #endif
+
+    /// Starts a fresh Docky instance and quits this one. `open -n` forces a
+    /// new instance; without it macOS just activates the running copy. Quits
+    /// only if the launch succeeded, so a failure leaves Docky running.
+    func relaunchApp() {
+        let bundlePath = Bundle.main.bundlePath
+        let task = Process()
+        task.launchPath = "/usr/bin/open"
+        task.arguments = ["-n", "-a", bundlePath]
+        do {
+            try task.run()
+        } catch {
+            NSLog("[Docky] Relaunch failed: \(error.localizedDescription)")
+            return
+        }
+        NSApp.terminate(nil)
+    }
 }

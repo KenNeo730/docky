@@ -21,7 +21,7 @@
 //
 //  Menu-bar titles coming from `MainMenu.xib` are frozen when the nib loads,
 //  which happens before this app's delegate runs. Changing language therefore
-//  restarts Docky; see `relaunchAfterChange()`.
+//  restarts Docky through `AppDelegate.relaunchApp()`.
 
 import AppKit
 import Foundation
@@ -101,6 +101,10 @@ final class LanguageManager {
         }
         set {
             defaults.set(newValue.rawValue, forKey: Self.storageKey)
+            // Write the per-app list now, not just at launch: the relaunched
+            // instance reads it before any of our code runs. Deferring it to
+            // launch made "Follow System" boot in the previous language.
+            applyToPerAppLanguageList()
         }
     }
 
@@ -195,25 +199,6 @@ final class LanguageManager {
 
     private var resourcesURL: URL {
         Bundle.main.bundleURL.appendingPathComponent("Contents").appendingPathComponent("Resources")
-    }
-
-    // MARK: Restart
-
-    /// The main menu is built from a nib that is already loaded by the time this
-    /// app runs, so a language change only lands cleanly on a fresh launch.
-    func relaunchAfterChange() {
-        let bundlePath = Bundle.main.bundlePath
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-            let configuration = NSWorkspace.OpenConfiguration()
-            configuration.activates = true
-            try? NSWorkspace.shared.openApplication(
-                at: URL(fileURLWithPath: bundlePath),
-                configuration: configuration
-            )
-            DispatchQueue.main.asyncAfter(deadline: .now() + 1.2) {
-                NSApplication.shared.terminate(nil)
-            }
-        }
     }
 
     /// Re-titles the live main menu when the chosen language is not the one the

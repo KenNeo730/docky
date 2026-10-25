@@ -42,6 +42,12 @@
             "state": "translated",
             "value": "%@ est obligatoire"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se requiere %@"
+          }
         }
       },
       "comment": "Loaded through L10n.text(_:) from a String-based API (NSAlert, NSMenuItem, help, accessibility)."
@@ -67,6 +73,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ s"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "%@ s"
@@ -100,6 +112,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%@ sera supprimé du disque. Il continuera de fonctionner jusqu'à votre redémarrage de Docky."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ se eliminará del disco. Seguirá ejecutándose hasta que reinicies Docky."
           }
         }
       }
@@ -137,6 +155,12 @@
             "state": "translated",
             "value": "%@ • %@"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ • %@"
+          }
         }
       }
     },
@@ -163,6 +187,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "%lld"
@@ -197,6 +227,12 @@
             "state": "translated",
             "value": "%lld pt"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld pt"
+          }
         }
       }
     },
@@ -223,6 +259,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld variantes"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "%lld variantes"
@@ -257,6 +299,12 @@
             "state": "translated",
             "value": "%lld%%"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld%%"
+          }
         }
       }
     },
@@ -283,6 +331,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld°"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "%lld°"
@@ -317,6 +371,12 @@
             "state": "translated",
             "value": "(réduit)"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(minimizada)"
+          }
         }
       }
     },
@@ -341,6 +401,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 variante"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "1 variante"
@@ -374,6 +440,12 @@
             "state": "translated",
             "value": "Widgets 1x"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widgets 1x"
+          }
         }
       }
     },
@@ -399,6 +471,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widgets 2x"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "Widgets 2x"
@@ -432,6 +510,12 @@
             "state": "translated",
             "value": "Widgets 3x"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widgets 3x"
+          }
         }
       }
     },
@@ -460,6 +544,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "TOUTE LA JOURNÉE"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TODO EL DÍA"
           }
         }
       }
@@ -491,6 +581,12 @@
             "state": "translated",
             "value": "ALPHA"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ALFA"
+          }
         }
       }
     },
@@ -520,6 +616,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "À propos des actions"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acerca de las acciones"
           }
         }
       }
@@ -618,6 +720,12 @@
             "state": "translated",
             "value": "Accessibility"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accesibilidad"
+          }
         }
       }
     },
@@ -647,6 +755,12 @@
             "state": "translated",
             "value": "Accessoire"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accesorio"
+          }
         }
       }
     },
@@ -675,6 +789,12 @@
             "state": "translated",
             "value": "Touches d'action"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Claves de acción"
+          }
         }
       }
     },
@@ -702,6 +822,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Types d'actions que Docky exécutera : commandes intégrées, AppleScript et clics dans la barre de menus de macOS. La première fois qu'une action AppleScript ou clic de menu ciblée sur une application s'exécute, macOS peut demander l'autorisation d'Automatisation."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tipos de acción que Docky ejecutará: comandos integrados, AppleScript y clics en la barra de menús de macOS. La primera vez que se ejecute una acción AppleScript o de clic en menú dirigida a una app, macOS puede pedir permiso de Automatización."
           }
         }
       }
@@ -732,6 +858,12 @@
             "state": "translated",
             "value": "Actions"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acciones"
+          }
         }
       }
     },
@@ -761,6 +893,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Les actions sont des éléments de menu que Docky injecte dans le menu clic droit de chaque tuile. Un paquet de catalogue livre un ensemble sélectionné ; une fois chargé, chaque action qu'il définit est automatiquement disponible sur le type de tuile correspondant. Les applications, dossiers, la Corbeille, le Launchpad et le séparateur disposent chacun de leur propre ensemble, sans configuration par tuile."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Las acciones son elementos de menú que Docky inserta en el menú de clic derecho de cada ícono. Un paquete del catálogo incluye un conjunto curado de ellas; una vez cargado, cada acción que define queda disponible automáticamente en el tipo de ícono correspondiente. Las apps, las carpetas, la Papelera, el Launchpad y el divisor tienen su propio conjunto, sin necesidad de configurar cada ícono."
           }
         }
       }
@@ -824,6 +962,12 @@
             "state": "translated",
             "value": "Arrière-plan de l'application active"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fondo de la app activa"
+          }
         }
       }
     },
@@ -851,6 +995,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Couleur de fond active"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Color del fondo activo"
           }
         }
       }
@@ -880,6 +1030,12 @@
             "state": "translated",
             "value": "Rayon des coins du fond actif"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Radio de esquina del fondo activo"
+          }
         }
       }
     },
@@ -908,6 +1064,12 @@
             "state": "translated",
             "value": "Image de fond active"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Imagen del fondo activo"
+          }
         }
       }
     },
@@ -935,6 +1097,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Opacité du fond actif"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opacidad del fondo activo"
           }
         }
       }
@@ -1101,6 +1269,12 @@
             "state": "translated",
             "value": "Ajouter des photos"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir fotos"
+          }
         }
       }
     },
@@ -1200,6 +1374,12 @@
             "state": "translated",
             "value": "Ajouter un déclencheur…"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir activador…"
+          }
         }
       }
     },
@@ -1230,6 +1410,12 @@
             "state": "translated",
             "value": "Ajouter à Docky"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir a Docky"
+          }
         }
       }
     },
@@ -1259,6 +1445,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ajoute une ombre portée derrière chaque tuile contenant une icône. Sans effet visible sur les espaces et séparateurs."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añade una sombra detrás de cada ícono con imagen. No tiene efecto visible en espaciadores ni divisores."
           }
         }
       }
@@ -1426,6 +1618,12 @@
             "state": "translated",
             "value": "Toutes les applications"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todas las apps"
+          }
         }
       }
     },
@@ -1454,6 +1652,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tout effacer"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todo en orden"
           }
         }
       }
@@ -1516,6 +1720,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tous les calendriers sont affichés lorsqu’aucun n’est sélectionné."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se muestran todos los calendarios cuando no hay ninguno seleccionado."
           }
         }
       }
@@ -1581,6 +1791,12 @@
             "state": "translated",
             "value": "Toute la journée"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todo el día"
+          }
         }
       }
     },
@@ -1608,6 +1824,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Autorisez Docky dans Confidentialité & Sécurité pour qu'il puisse effectuer %@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Permite Docky en Privacidad y Seguridad para que pueda realizar %@."
           }
         }
       },
@@ -1707,6 +1929,12 @@
             "state": "translated",
             "value": "Autoriser l’installation de widgets depuis des liens"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Permitir instalar widgets desde enlaces"
+          }
         }
       }
     },
@@ -1772,6 +2000,12 @@
             "state": "translated",
             "value": "Fonctionnalité alpha"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Función alfa"
+          }
         }
       }
     },
@@ -1801,6 +2035,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Alphabétique"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alfabético"
           }
         }
       }
@@ -1933,6 +2173,12 @@
             "state": "translated",
             "value": "Analyse de votre espace de travail"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analizando tu espacio de trabajo"
+          }
         }
       }
     },
@@ -1961,6 +2207,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Durée de l'animation"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duración de la animación"
           }
         }
       }
@@ -2025,6 +2277,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dossiers d'applications"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Carpetas de apps"
           }
         }
       }
@@ -2123,6 +2381,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Clic sur la tuile d'application"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clic en el ícono de app"
           }
         }
       }
@@ -2223,6 +2487,12 @@
             "state": "translated",
             "value": "Le Launchpad classique d'Apple : des pages d'icônes qui glissent horizontalement avec un indicateur de page en dessous."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El Launchpad clásico de Apple: páginas de íconos que se deslizan horizontalmente con un indicador de página debajo."
+          }
         }
       }
     },
@@ -2251,6 +2521,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "L’exécution AppleScript a échoué."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Falló la ejecución de AppleScript."
           }
         }
       }
@@ -2281,6 +2557,12 @@
             "state": "translated",
             "value": "Applications"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aplicaciones"
+          }
         }
       }
     },
@@ -2308,6 +2590,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Appliquer"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aplicar"
           }
         }
       }
@@ -2407,6 +2695,12 @@
             "state": "translated",
             "value": "Les applications masquées avec « Masquer dans Docky » restent hors des surfaces d'applications épinglées et en cours de Docky jusqu'à ce que vous les restauriez ici."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Las apps ocultas con \"Ocultar en Docky\" no aparecen en las secciones de apps fijadas y en ejecución de Docky hasta que las restaures aquí."
+          }
         }
       }
     },
@@ -2437,6 +2731,12 @@
             "state": "translated",
             "value": "Applications installées sur ce Mac qui ne figurent pas actuellement dans votre dock. Définissez leur icône à l'avance et elle sera prête lorsque vous les ajouterez."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apps instaladas en este Mac que no están en tu dock actualmente. Define su ícono de antemano y estará listo cuando las añadas."
+          }
         }
       }
     },
@@ -2465,6 +2765,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Joindre"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adjuntar"
           }
         }
       }
@@ -2495,6 +2801,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pièce jointe (facultative)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adjunto (opcional)"
           }
         }
       }
@@ -2662,6 +2974,12 @@
             "state": "translated",
             "value": "Automatique"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automático"
+          }
         }
       }
     },
@@ -2692,6 +3010,12 @@
             "state": "translated",
             "value": "Automatic suit l'application actuellement en lecture. Choisissez une application précise pour toujours afficher sa lecture."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automático sigue a la app que se esté reproduciendo. Elige una app específica para mostrar siempre su reproducción."
+          }
         }
       }
     },
@@ -2720,6 +3044,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Le mode automatique suit la région de votre système."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automático sigue la región de tu sistema."
           }
         }
       }
@@ -2818,6 +3148,12 @@
             "state": "translated",
             "value": "Automation"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatización"
+          }
         }
       }
     },
@@ -2847,6 +3183,12 @@
             "state": "translated",
             "value": "Automation (Finder)"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatización (Finder)"
+          }
         }
       }
     },
@@ -2875,6 +3217,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Automatisation (System Events)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatización (System Events)"
           }
         }
       }
@@ -2974,6 +3322,12 @@
             "state": "translated",
             "value": "Retour"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atrás"
+          }
         }
       }
     },
@@ -3002,6 +3356,12 @@
             "state": "translated",
             "value": "Rayon des coins du fond"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Radio de esquina del fondo"
+          }
         }
       }
     },
@@ -3029,6 +3389,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Image de fond"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Imagen de fondo"
           }
         }
       }
@@ -3092,6 +3458,12 @@
             "state": "translated",
             "value": "Opacité de l'arrière-plan"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opacidad del fondo"
+          }
         }
       }
     },
@@ -3119,6 +3491,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fond dessiné sous chaque tuile d'application en cours, indépendamment du survol. Utile pour un effet de barre d'outils « application active mise en évidence »."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Relleno de fondo dibujado bajo cada ícono de app en ejecución, independiente del cursor. Útil para un aspecto de barra de tareas con la \"app activa resaltada\"."
           }
         }
       }
@@ -3149,6 +3527,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Informations système de base (version de macOS, écrans, build de Docky)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Información básica del sistema (versión de macOS, pantallas, compilación de Docky)"
           }
         }
       }
@@ -3243,6 +3627,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "Bluetooth"
@@ -3345,6 +3735,12 @@
             "state": "translated",
             "value": "Flouter l'image de fond"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desenfocar imagen de fondo"
+          }
         }
       }
     },
@@ -3375,6 +3771,12 @@
             "state": "translated",
             "value": "Couleur du bord"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Color del borde"
+          }
         }
       }
     },
@@ -3404,6 +3806,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Épaisseur du bord"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ancho del borde"
           }
         }
       }
@@ -3467,6 +3875,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "En bas à gauche"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inferior inicial"
           }
         }
       }
@@ -3565,6 +3979,12 @@
             "state": "translated",
             "value": "En bas à droite"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inferior final"
+          }
         }
       }
     },
@@ -3594,6 +4014,12 @@
             "state": "translated",
             "value": "Bas et Haut"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abajo y arriba"
+          }
         }
       }
     },
@@ -3622,6 +4048,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Parcourir"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Explorar"
           }
         }
       }
@@ -3686,6 +4118,12 @@
             "state": "translated",
             "value": "Version"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compilación"
+          }
         }
       }
     },
@@ -3714,6 +4152,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Intégré"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Integrado"
           }
         }
       }
@@ -3745,6 +4189,12 @@
             "state": "translated",
             "value": "intégré"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Integrado"
+          }
         }
       }
     },
@@ -3774,6 +4224,12 @@
             "state": "translated",
             "value": "Le bundle n’a pas pu être ouvert."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se pudo abrir el paquete."
+          }
         }
       }
     },
@@ -3802,6 +4258,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bundle.load() a échoué. Vérifiez la signature de code."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bundle.load() falló. Comprueba la firma de código."
           }
         }
       }
@@ -3866,6 +4328,12 @@
             "state": "translated",
             "value": "Calendrier indisponible"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calendario no disponible"
+          }
         }
       }
     },
@@ -3893,6 +4361,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Un accès au Calendar est nécessaire pour choisir les calendriers à afficher."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se necesita acceso al Calendario para elegir qué calendarios mostrar."
           }
         }
       }
@@ -3923,6 +4397,12 @@
             "state": "translated",
             "value": "Le calendrier n’est pas disponible pour le moment."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El Calendario no está disponible en este momento."
+          }
         }
       }
     },
@@ -3951,6 +4431,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Un accès en lecture au Calendar est nécessaire pour afficher les événements à venir."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se necesita acceso de lectura al Calendario para mostrar los próximos eventos."
           }
         }
       }
@@ -4083,6 +4569,12 @@
             "state": "translated",
             "value": "Capturer les aperçus de fenêtres en direct"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Capturar vistas previas de ventanas en vivo"
+          }
         }
       }
     },
@@ -4214,6 +4706,12 @@
             "state": "translated",
             "value": "En charge"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cargando"
+          }
         }
       }
     },
@@ -4242,6 +4740,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Discussion"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chat"
           }
         }
       }
@@ -4341,6 +4845,12 @@
             "state": "translated",
             "value": "Choisir"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elegir"
+          }
         }
       }
     },
@@ -4369,6 +4879,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Choisir une image"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elegir imagen"
           }
         }
       }
@@ -4432,6 +4948,12 @@
             "state": "translated",
             "value": "Choisir une image…"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elegir imagen…"
+          }
         }
       }
     },
@@ -4462,6 +4984,12 @@
             "state": "translated",
             "value": "Choisir des photos"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elegir fotos"
+          }
         }
       }
     },
@@ -4489,6 +5017,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Choisir des photos…"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elegir fotos…"
           }
         }
       }
@@ -4519,6 +5053,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Choisir capture d’écran / vidéo…"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elegir captura / video…"
           }
         }
       }
@@ -4581,6 +5121,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Choisissez un nom pour ce dossier d’applications."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige un nombre para esta carpeta de apps."
           }
         }
       },
@@ -4952,6 +5498,12 @@
             "state": "translated",
             "value": "Choisissez si le sélecteur reste purement superposé, prévisualise la fenêtre sélectionnée derrière lui, ou donne le focus immédiatement à chaque étape pendant le défilement."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige si el conmutador debe quedarse solo superpuesto, previsualizar la ventana seleccionada detrás de él o enfocar cada paso de inmediato mientras recorres las ventanas."
+          }
         }
       }
     },
@@ -5118,6 +5670,12 @@
             "state": "translated",
             "value": "Effacer les remplacements"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Borrar sobrescrituras"
+          }
         }
       }
     },
@@ -5145,6 +5703,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Effacer les photos"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Borrar fotos"
           }
         }
       }
@@ -5211,6 +5775,12 @@
             "state": "translated",
             "value": "Cliquez pour renommer"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Haz clic para renombrar"
+          }
         }
       }
     },
@@ -5273,6 +5843,12 @@
             "state": "translated",
             "value": "Espacement des colonnes"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Espaciado de columnas"
+          }
         }
       }
     },
@@ -5303,6 +5879,12 @@
             "state": "translated",
             "value": "Total cumulé"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Total combinado"
+          }
         }
       }
     },
@@ -5332,6 +5914,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Widget de la communauté chargé depuis un bundle externe."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widget de la comunidad cargado desde un paquete externo."
           }
         }
       }
@@ -5465,6 +6053,12 @@
             "state": "translated",
             "value": "Remplissage du contenu"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Margen del contenido"
+          }
         }
       }
     },
@@ -5528,6 +6122,12 @@
             "state": "translated",
             "value": "Continuer"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continuar"
+          }
         }
       }
     },
@@ -5558,6 +6158,12 @@
             "state": "translated",
             "value": "Continu"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continuo"
+          }
         }
       }
     },
@@ -5586,6 +6192,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Contrôler les actions de l’interface en douceur"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Controlar acciones de la interfaz con fluidez"
           }
         }
       }
@@ -5650,6 +6262,12 @@
             "state": "translated",
             "value": "Contrôle l'enfoncement de chaque séparateur selon son axe court, en fraction de la taille de la tuile."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Controla cuánto se reduce cada divisor a lo largo de su eje corto, como fracción del tamaño del ícono."
+          }
         }
       }
     },
@@ -5712,6 +6330,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Contrôle l'opacité des séparateurs. 100 % est totalement opaque ; 0 % les masque complètement."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Controla qué tan visibles son los divisores. Un 100% implica opacidad total; un 0% los oculta por completo."
           }
         }
       }
@@ -5809,6 +6433,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Contrôle l'arrondi de la fenêtre de dock principale et de son bord, jusqu'à une capsule complète."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Controla la redondez de la ventana principal del dock y su borde, hasta una cápsula completa."
           }
         }
       }
@@ -6009,6 +6639,12 @@
             "state": "translated",
             "value": "Rayon des coins"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Radio de esquina"
+          }
         }
       }
     },
@@ -6038,6 +6674,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Impossible d'importer le thème"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se pudo importar el tema"
           }
         }
       }
@@ -6069,6 +6711,12 @@
             "state": "translated",
             "value": "Impossible d’installer le widget"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se pudo instalar el widget"
+          }
         }
       }
     },
@@ -6096,6 +6744,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Impossible d’appliquer la surcharge"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se pudo aplicar la sobrescritura"
           }
         }
       },
@@ -6125,6 +6779,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Impossible d’installer le widget"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se pudo instalar el widget"
           }
         }
       },
@@ -6157,6 +6817,12 @@
             "state": "translated",
             "value": "Impossible de charger le marketplace."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se pudo cargar la tienda."
+          }
         }
       }
     },
@@ -6185,6 +6851,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Impossible de déterminer votre position."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se pudo determinar tu ubicación."
           }
         }
       }
@@ -6215,6 +6887,12 @@
             "state": "translated",
             "value": "Impossible de charger la météo."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se pudo cargar el clima."
+          }
         }
       }
     },
@@ -6243,6 +6921,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Impossible de mettre à jour le rappel."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se pudo actualizar el recordatorio."
           }
         }
       }
@@ -6308,6 +6992,12 @@
             "state": "translated",
             "value": "Position actuelle"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ubicación actual"
+          }
         }
       }
     },
@@ -6371,6 +7061,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Personnalisé"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personalizado"
           }
         }
       }
@@ -6469,6 +7165,12 @@
             "state": "translated",
             "value": "Emplacement personnalisé"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ubicación personalizada"
+          }
         }
       }
     },
@@ -6531,6 +7233,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Quotidien"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diario"
           }
         }
       }
@@ -6697,6 +7405,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Désactiver"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desactivar"
           }
         }
       }
@@ -6866,6 +7580,12 @@
             "state": "translated",
             "value": "Supprimer ce thème"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminar este tema"
+          }
         }
       }
     },
@@ -6895,6 +7615,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Supprimer ce thème ?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Eliminar este tema?"
           }
         }
       }
@@ -6926,6 +7652,12 @@
             "state": "translated",
             "value": "Supprimer ce widget"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminar este widget"
+          }
         }
       }
     },
@@ -6956,6 +7688,12 @@
             "state": "translated",
             "value": "Supprimer ce widget ?"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Eliminar este widget?"
+          }
         }
       }
     },
@@ -6983,6 +7721,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Décrivez le problème, l'idée ou le retour. Le bundle de diagnostic ci-dessous est joint automatiquement afin que le mainteneur puisse reproduire votre configuration."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Describe el problema, la idea o tus comentarios. El paquete de diagnóstico de abajo se adjunta automáticamente para que el responsable pueda replicar tu configuración."
           }
         }
       }
@@ -7014,6 +7758,12 @@
             "state": "translated",
             "value": "Décrivez les étapes de reproduction, ou ce que vous aimeriez voir…"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Describe los pasos para reproducirlo, o lo que te gustaría ver…"
+          }
         }
       }
     },
@@ -7043,6 +7793,12 @@
             "state": "translated",
             "value": "Bureau"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escritorio"
+          }
         }
       }
     },
@@ -7071,6 +7827,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Développeur"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desarrollador"
           }
         }
       }
@@ -7134,6 +7896,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Atténuer les icônes d'application inactives"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atenuar íconos de apps inactivas"
           }
         }
       }
@@ -7401,6 +8169,12 @@
             "state": "translated",
             "value": "Couleur du séparateur"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Color del divisor"
+          }
         }
       }
     },
@@ -7533,6 +8307,12 @@
             "state": "translated",
             "value": "Réglages du Dock"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes del dock"
+          }
         }
       }
     },
@@ -7562,6 +8342,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Chaque profil de dock conserve ses propres applications épinglées, éléments finaux, widgets et liste d'applications masquées. Basculez entre eux depuis la petite bille au bord d'attaque du dock."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cada perfil del dock conserva sus propias apps fijadas, elementos finales, widgets y lista de apps ocultas. Cambia entre ellos desde la pequeña esfera en el borde inicial del dock."
           }
         }
       }
@@ -7626,6 +8412,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Préférences de Docky"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preferencias de Docky"
           }
         }
       }
@@ -7727,6 +8519,12 @@
             "state": "translated",
             "value": "Réglages de Docky"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes de Docky"
+          }
         }
       }
     },
@@ -7824,6 +8622,12 @@
             "state": "translated",
             "value": "Docky n’a pas trouvé de dossier Applications accessible en écriture."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Docky no pudo encontrar una carpeta Aplicaciones con permisos de escritura."
+          }
         }
       }
     },
@@ -7886,6 +8690,12 @@
             "state": "translated",
             "value": "Docky n'a pas trouvé de processus en cours d'exécution pour %1$@ afin d'effectuer %2$@."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Docky no encontró un proceso en ejecución de %1$@ para realizar %2$@."
+          }
         }
       },
       "comment": "Loaded through L10n.text(_:) from a String-based API (NSAlert, NSMenuItem, help, accessibility)."
@@ -7916,6 +8726,12 @@
             "state": "translated",
             "value": "Docky n'a pas pu préparer l'AppleScript nécessaire à cette action Finder."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Docky no pudo preparar el AppleScript necesario para esta acción de Finder."
+          }
         }
       }
     },
@@ -7944,6 +8760,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Docky n'a pas pu préparer l'AppleScript nécessaire pour demander l'automatisation System Events."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Docky no pudo preparar el AppleScript necesario para solicitar la automatización de System Events."
           }
         }
       }
@@ -7974,6 +8796,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Docky charge les définitions d'actions depuis un JSON intégré. Les futurs paquets sélectionnés pourront ajouter des actions et des éléments de menu à des points d'insertion agréés sans remplacer les menus principaux de Docky."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Docky carga definiciones de acciones desde JSON empaquetado. Paquetes futuros curados podrán añadir acciones y elementos de menú en puntos de inserción aprobados sin reemplazar los menús base de Docky."
           }
         }
       }
@@ -8040,6 +8868,12 @@
             "state": "translated",
             "value": "Préférences Docky (chaque clé UserDefaults `docky.*`)"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preferencias de Docky (cada clave `docky.*` de UserDefaults)"
+          }
         }
       }
     },
@@ -8102,6 +8936,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Docky souhaite contrôler Finder"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Docky quiere controlar Finder"
           }
         }
       }
@@ -8167,6 +9007,12 @@
             "state": "translated",
             "value": "Docky.app"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Docky.app"
+          }
         }
       }
     },
@@ -8195,6 +9041,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Documents"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Documentos"
           }
         }
       }
@@ -8292,6 +9144,12 @@
             "state": "translated",
             "value": "Télécharger et installer"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descargar e instalar"
+          }
         }
       },
       "comment": "Loaded through L10n.text(_:) from a String-based API (NSAlert, NSMenuItem, help, accessibility)."
@@ -8321,6 +9179,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Téléchargements"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descargas"
           }
         }
       }
@@ -8385,6 +9249,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Faites glisser les icônes pour les réorganiser"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arrastra los íconos para reorganizarlos"
           }
         }
       }
@@ -8483,6 +9353,12 @@
             "state": "translated",
             "value": "Bruine"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Llovizna"
+          }
         }
       }
     },
@@ -8512,6 +9388,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Déposez un dossier `.dockytheme` dézippé dans le dossier Thèmes, puis actualisez."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suelta una carpeta `.dockytheme` descomprimida en el directorio Themes y luego actualiza."
           }
         }
       }
@@ -8543,6 +9425,12 @@
             "state": "translated",
             "value": "Dupliquer"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duplicar"
+          }
         }
       }
     },
@@ -8573,6 +9461,12 @@
             "state": "translated",
             "value": "Chaque coin défini ne remplace que lui-même ; les coins non définis héritent du rayon uniforme ci-dessus. Utilisez cela pour aplatir uniquement le bord tourné vers l'écran (aspect barre d'outils)."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cada esquina definida solo se sobrescribe a sí misma; las esquinas sin definir heredan el radio uniforme de arriba. Úsalo para aplanar solo el borde que da a la pantalla (apariencia de barra de tareas)."
+          }
         }
       }
     },
@@ -8602,6 +9496,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Chaque taille de rendu peut adopter sa propre marge de contenu et son propre rayon de coin. Les valeurs non définies héritent des valeurs par défaut du cadre de tuile, utile pour laisser des widgets larges déborder d'un bord à l'autre tout en gardant arrondie la forme 1x."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cada tamaño de renderizado puede usar su propio margen de contenido y radio de esquina. Los valores sin definir heredan los predeterminados del contorno del ícono, lo que sirve para que los widgets anchos lleguen de borde a borde mientras la forma 1x se mantiene redondeada."
           }
         }
       }
@@ -8943,6 +9843,12 @@
             "state": "translated",
             "value": "Activer l'accès"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activar acceso"
+          }
         }
       }
     },
@@ -8971,6 +9877,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Activer l'Agenda"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activar Calendario"
           }
         }
       }
@@ -9002,6 +9914,12 @@
             "state": "translated",
             "value": "Activer l'accès au calendrier"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activar acceso a Calendario"
+          }
         }
       }
     },
@@ -9030,6 +9948,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Activez l'accès au Calendar dans les Réglages pour afficher les événements à venir."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activa el acceso a Calendario en Ajustes para mostrar los próximos eventos."
           }
         }
       }
@@ -9094,6 +10018,12 @@
             "state": "translated",
             "value": "Activer la localisation"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activar ubicación"
+          }
         }
       }
     },
@@ -9122,6 +10052,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Activer les Rappels"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activar Recordatorios"
           }
         }
       }
@@ -9152,6 +10088,12 @@
             "state": "translated",
             "value": "Activez l'accès à Reminders dans les Réglages pour afficher vos tâches en cours."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activa el acceso a Recordatorios en Ajustes para mostrar tus tareas abiertas."
+          }
         }
       }
     },
@@ -9181,6 +10123,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Activer le menu Démarrer"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activar menú Inicio"
           }
         }
       }
@@ -9313,6 +10261,12 @@
             "state": "translated",
             "value": "Les UserDefaults docky.* existants seront d'abord effacés, puis remplacés par les valeurs de %@. Docky redémarrera ensuite."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Primero se borrarán los UserDefaults docky.* existentes y luego se reemplazarán con los valores de %@. Después, Docky se reiniciará."
+          }
         }
       },
       "comment": "Loaded through L10n.text(_:) from a String-based API (NSAlert, NSMenuItem, help, accessibility)."
@@ -9342,6 +10296,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Exporter le thème"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exportar tema"
           }
         }
       }
@@ -9373,6 +10333,12 @@
             "state": "translated",
             "value": "Exporter vers le thème…"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exportar a tema…"
+          }
         }
       }
     },
@@ -9401,6 +10367,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Très grande"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extragrande"
           }
         }
       }
@@ -9431,6 +10403,12 @@
             "state": "translated",
             "value": "Atténue la tuile d'une application à demi translucide lorsque celle-ci est masquée ou n'a aucune fenêtre ouverte. Désactivez pour garder les icônes totalement opaques quel que soit l'état. La détection des fenêtres ouvertes nécessite l'autorisation Accessibilité."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atenúa el ícono de una app a media opacidad mientras la app está oculta o no tiene ventanas abiertas. Desactívalo para mantener los íconos totalmente opacos sin importar su estado. Detectar ventanas abiertas requiere permiso de Accesibilidad."
+          }
         }
       }
     },
@@ -9459,6 +10437,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Échec du chargement"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error al cargar"
           }
         }
       }
@@ -9490,6 +10474,12 @@
             "state": "translated",
             "value": "Ventilateur"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abanico"
+          }
         }
       }
     },
@@ -9518,6 +10508,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Favori"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Favorito"
           }
         }
       }
@@ -9583,6 +10579,12 @@
             "state": "translated",
             "value": "Retour"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comentarios"
+          }
         }
       }
     },
@@ -9647,6 +10649,12 @@
             "state": "translated",
             "value": "Tuile Finder"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ícono de Finder"
+          }
         }
       }
     },
@@ -9677,6 +10685,12 @@
             "state": "translated",
             "value": "Fenêtre Finder"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ventana de Finder"
+          }
         }
       }
     },
@@ -9705,6 +10719,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Action Finder"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acción de Finder"
           }
         }
       }
@@ -9735,6 +10755,12 @@
             "state": "translated",
             "value": "Échec de l'action Finder"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Falló la acción de Finder"
+          }
         }
       }
     },
@@ -9763,6 +10789,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "L’automatisation Finder n’a pas été autorisée"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se permitió la automatización de Finder"
           }
         }
       }
@@ -9827,6 +10859,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Espacement flexible"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Espaciador flexible"
           }
         }
       }
@@ -9959,6 +10997,12 @@
             "state": "translated",
             "value": "Brouillard"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niebla"
+          }
         }
       }
     },
@@ -10021,6 +11065,12 @@
             "state": "translated",
             "value": "Pastilles des dossiers"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Globos de carpeta"
+          }
         }
       }
     },
@@ -10050,6 +11100,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nom du dossier"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nombre de la carpeta"
           }
         }
       }
@@ -10113,6 +11169,12 @@
             "state": "translated",
             "value": "Par mesure de sécurité, Docky n'installera pas un widget provenant d'un lien tant que vous ne l'aurez pas activé dans Réglages › Store de widgets."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Por seguridad, Docky no instalará un widget desde un enlace hasta que actives esta opción en Ajustes › Tienda de widgets."
+          }
         }
       },
       "comment": "Loaded through L10n.text(_:) from a String-based API (NSAlert, NSMenuItem, help, accessibility)."
@@ -10142,6 +11204,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Forcer la sortie"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Forzar salida"
           }
         }
       }
@@ -10241,6 +11309,12 @@
             "state": "translated",
             "value": "Avant"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adelante"
+          }
         }
       }
     },
@@ -10269,6 +11343,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ven."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vie"
           }
         }
       }
@@ -10299,6 +11379,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "De"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desde"
           }
         }
       }
@@ -10400,6 +11486,12 @@
             "state": "translated",
             "value": "Application au premier plan"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App en primer plano"
+          }
         }
       }
     },
@@ -10496,6 +11588,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Accès total au disque"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acceso total al disco"
           }
         }
       }
@@ -10698,6 +11796,12 @@
             "state": "translated",
             "value": "Accordé"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Concedido"
+          }
         }
       }
     },
@@ -10828,6 +11932,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Regroupement de votre équipe de lancement"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agrupando tu equipo de lanzamiento"
           }
         }
       }
@@ -10994,6 +12104,12 @@
             "state": "translated",
             "value": "Masquer Finder"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocultar Finder"
+          }
         }
       }
     },
@@ -11055,6 +12171,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Masquer la corbeille"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocultar Papelera"
           }
         }
       }
@@ -11154,6 +12276,12 @@
             "state": "translated",
             "value": "Masquer le sélecteur de profil"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocultar selector de perfiles"
+          }
         }
       }
     },
@@ -11216,6 +12344,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Masque les applications récentes ou en cours non épinglées même lorsque « Afficher les applications en cours » est activé. Utile lorsque vous souhaitez un dock stable qui ne se déplace pas au lancement des applications."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oculta las apps recientes o en ejecución no fijadas incluso cuando \"Mostrar apps en ejecución\" está activado. Útil si quieres un diseño del dock estable que no cambie al abrir apps."
           }
         }
       }
@@ -11280,6 +12414,12 @@
             "state": "translated",
             "value": "Accueil"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Carpeta personal"
+          }
         }
       }
     },
@@ -11307,6 +12447,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Espace horizontal entre les icônes à la hauteur de référence. Les valeurs basses resserrent les icônes, les valeurs hautes les écartent."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Espacio horizontal entre íconos a la altura de referencia. Los valores más bajos juntan más los íconos; los más altos los separan."
           }
         }
       }
@@ -11337,6 +12483,12 @@
             "state": "translated",
             "value": "Toutes les heures"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Por hora"
+          }
         }
       }
     },
@@ -11364,6 +12516,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Couleur de l'arrière-plan de survol"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Color de fondo al pasar el cursor"
           }
         }
       }
@@ -11393,6 +12551,12 @@
             "state": "translated",
             "value": "Rayon des coins du fond au survol"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Radio de esquina del fondo al pasar el cursor"
+          }
         }
       }
     },
@@ -11421,6 +12585,12 @@
             "state": "translated",
             "value": "Image d'arrière-plan de survol"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Imagen de fondo al pasar el cursor"
+          }
         }
       }
     },
@@ -11448,6 +12618,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Opacité du fond au survol"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opacidad del fondo al pasar el cursor"
           }
         }
       }
@@ -11511,6 +12687,12 @@
             "state": "translated",
             "value": "Opacité au survol"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opacidad al pasar el cursor"
+          }
         }
       }
     },
@@ -11573,6 +12755,12 @@
             "state": "translated",
             "value": "Échelle de survol"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escala al pasar el cursor"
+          }
         }
       }
     },
@@ -11600,6 +12788,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Comment un dossier d'applications affiche les badges de ses applications : un total combiné sur la tuile du dossier, ou un badge sur chaque application qu'il contient."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cómo muestra una carpeta de apps los globos de sus apps: un total combinado en el ícono de la carpeta o un globo en cada app dentro de ella."
           }
         }
       }
@@ -11663,6 +12857,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Durée du glissement lorsque Docky affiche ou masque sa fenêtre. Réglez sur 0 pour un déplacement instantané."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuánto tarda el deslizamiento cuando Docky muestra u oculta su ventana. Pon 0 para que sea instantáneo."
           }
         }
       }
@@ -11763,6 +12963,12 @@
             "state": "translated",
             "value": "Taille de l'icône"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tamaño del ícono"
+          }
         }
       }
     },
@@ -11826,6 +13032,12 @@
             "state": "translated",
             "value": "Taille de l'image"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tamaño de la imagen"
+          }
         }
       }
     },
@@ -11854,6 +13066,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Importer un thème"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Importar tema"
           }
         }
       }
@@ -11884,6 +13102,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Importer un thème…"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Importar tema…"
           }
         }
       }
@@ -11947,6 +13171,12 @@
             "state": "translated",
             "value": "Incluez les fenêtres minimisées dans le sélecteur de fenêtres et les aperçus de survol par tuile. Elles s'affichent en grisées avec un libellé « (minimisé) » pour se distinguer des fenêtres actives."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Incluye las ventanas minimizadas en el conmutador de ventanas y en las vistas previas por ícono al pasar el cursor. Se muestran atenuadas con la etiqueta \"(minimizada)\" para distinguirlas de las ventanas activas."
+          }
         }
       }
     },
@@ -11976,6 +13206,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Couleur de l'indicateur"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Color del indicador"
           }
         }
       }
@@ -12110,6 +13346,12 @@
             "state": "translated",
             "value": "Installer"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instalar"
+          }
         }
       }
     },
@@ -12139,6 +13381,12 @@
             "state": "translated",
             "value": "Installer le widget"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instalar widget"
+          }
         }
       }
     },
@@ -12166,6 +13414,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Installer un widget depuis « %@ » ?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Instalar un widget de “%@”?"
           }
         }
       },
@@ -12198,6 +13452,12 @@
             "state": "translated",
             "value": "Installer depuis un fichier…"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instalar desde archivo…"
+          }
         }
       }
     },
@@ -12227,6 +13487,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Installé"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instalado"
           }
         }
       }
@@ -12258,6 +13524,12 @@
             "state": "translated",
             "value": "Thèmes installés"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Temas instalados"
+          }
         }
       }
     },
@@ -12288,6 +13560,12 @@
             "state": "translated",
             "value": "Widgets installés"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widgets instalados"
+          }
         }
       }
     },
@@ -12315,6 +13593,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "L’installation de widgets depuis des liens est désactivée"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La instalación de widgets desde enlaces está desactivada"
           }
         }
       },
@@ -12346,6 +13630,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Installation…"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instalando…"
           }
         }
       }
@@ -12410,6 +13700,12 @@
             "state": "translated",
             "value": "Lien d’installation de widget invalide"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enlace de instalación de widget no válido"
+          }
         }
       }
     },
@@ -12438,6 +13734,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Décalage vers l'intérieur"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desplazamiento hacia dentro"
           }
         }
       }
@@ -12536,6 +13838,12 @@
             "state": "translated",
             "value": "Clavier"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teclado"
+          }
         }
       }
     },
@@ -12599,6 +13907,12 @@
             "state": "translated",
             "value": "Grand"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grande"
+          }
         }
       }
     },
@@ -12626,6 +13940,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Plus tard"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Más tarde"
           }
         }
       },
@@ -12727,6 +14047,12 @@
             "state": "translated",
             "value": "Options de Launchpad"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opciones de Launchpad"
+          }
         }
       }
     },
@@ -12757,6 +14083,12 @@
             "state": "translated",
             "value": "Réglages de Launchpad…"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes de Launchpad…"
+          }
         }
       }
     },
@@ -12784,6 +14116,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Traitement de survol en couches : un fond (couleur ou image), plus des multiplicateurs d'échelle et d'opacité appliqués à l'icône au survol."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Efecto en capas al pasar el cursor: un relleno de fondo (color o imagen), más multiplicadores opcionales de escala y opacidad que se aplican al ícono mientras el cursor está encima."
           }
         }
       }
@@ -12847,6 +14185,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Début"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inicial"
           }
         }
       }
@@ -12945,6 +14289,12 @@
             "state": "translated",
             "value": "Côté gauche"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lado izquierdo"
+          }
         }
       }
     },
@@ -12973,6 +14323,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Gauche et Droite"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Izquierda y derecha"
           }
         }
       }
@@ -13003,6 +14359,12 @@
             "state": "translated",
             "value": "Bibliothèque"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Biblioteca"
+          }
         }
       }
     },
@@ -13031,6 +14393,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Les liens comme `docky://install-widget` permettent à une page web d'installer un widget. Désactivé par défaut. Les widgets sont des plugins natifs qui s'exécutent à l'intérieur de Docky avec le même accès dont dispose Docky : Accessibilité, Automatisation, fichiers, et plus — et Docky ne les isole ni ne les vérifie, n'installez donc que des widgets auxquels vous faites confiance. L'installation d'un fichier `.dockywidget` par vos soins fonctionne toujours."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los enlaces como `docky://install-widget` permiten que una página web instale un widget. Desactivado por defecto. Los widgets son plugins nativos que se ejecutan dentro de Docky con el mismo acceso que tiene Docky (Accesibilidad, Automatización, archivos y más), y Docky no los aísla ni los verifica, así que instala solo widgets en los que confíes. Instalar tú mismo un archivo `.dockywidget` siempre funciona."
           }
         }
       }
@@ -13094,6 +14462,12 @@
             "state": "translated",
             "value": "Répertorier les fenêtres minimisées dans le Switcher et les aperçus"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar ventanas minimizadas en el conmutador y las vistas previas"
+          }
         }
       }
     },
@@ -13123,6 +14497,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Préférences du Dock macOS en direct (`com.apple.dock`)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preferencias actuales del Dock de macOS (`com.apple.dock`)"
           }
         }
       }
@@ -13154,6 +14534,12 @@
             "state": "translated",
             "value": "Chargement des batteries"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cargando baterías"
+          }
         }
       }
     },
@@ -13183,6 +14569,12 @@
             "state": "translated",
             "value": "Chargement du calendrier"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cargando Calendario"
+          }
         }
       }
     },
@@ -13211,6 +14603,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Chargement des rappels"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cargando Recordatorios"
           }
         }
       }
@@ -13242,6 +14640,12 @@
             "state": "translated",
             "value": "Chargement du statut"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cargando estado"
+          }
         }
       }
     },
@@ -13270,6 +14674,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Chargement de la météo"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cargando Clima"
           }
         }
       }
@@ -13301,6 +14711,12 @@
             "state": "translated",
             "value": "Chargement du market…"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cargando tienda…"
+          }
         }
       }
     },
@@ -13331,6 +14747,12 @@
             "state": "translated",
             "value": "Emplacement"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ubicación"
+          }
         }
       }
     },
@@ -13359,6 +14781,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "L’accès à la localisation est nécessaire pour la météo locale."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se necesita acceso a la ubicación para el clima local."
           }
         }
       }
@@ -13389,6 +14817,12 @@
             "state": "translated",
             "value": "Se déconnecter..."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerrar sesión..."
+          }
         }
       }
     },
@@ -13414,6 +14848,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "Mac"
@@ -13482,6 +14922,12 @@
             "state": "translated",
             "value": "Taille agrandie"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tamaño ampliado"
+          }
         }
       }
     },
@@ -13547,6 +14993,12 @@
             "state": "translated",
             "value": "Gérer les profils…"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gestionar perfiles…"
+          }
         }
       }
     },
@@ -13576,6 +15028,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Marketplace"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tienda"
           }
         }
       }
@@ -13743,6 +15201,12 @@
             "state": "translated",
             "value": "Taille maximale d'un bord d'icône sur un écran 1440p. Les petits écrans sont réduits à partir de cette valeur ; les plus grands y sont limités. La valeur par défaut est de 128 pt."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lado máximo del ícono en una pantalla de 1440p. Las pantallas más pequeñas se reducen a partir de este valor; las más grandes se limitan a él. El valor predeterminado es 128 pt."
+          }
         }
       }
     },
@@ -13773,6 +15237,12 @@
             "state": "translated",
             "value": "Application multimédia"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App multimedia"
+          }
         }
       }
     },
@@ -13802,6 +15272,12 @@
             "state": "translated",
             "value": "Moyen"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mediano"
+          }
         }
       }
     },
@@ -13829,6 +15305,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Action de menu indisponible"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acción de menú no disponible"
           }
         }
       },
@@ -13859,6 +15341,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Messagerie"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mensajería"
           }
         }
       }
@@ -13991,6 +15479,12 @@
             "state": "translated",
             "value": "Manquant"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Falta"
+          }
         }
       }
     },
@@ -14020,6 +15514,12 @@
             "state": "translated",
             "value": "lun."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lun"
+          }
         }
       }
     },
@@ -14048,6 +15548,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mensuel"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mensual"
           }
         }
       }
@@ -14079,6 +15585,12 @@
             "state": "translated",
             "value": "Plus"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Más"
+          }
         }
       }
     },
@@ -14109,6 +15621,12 @@
             "state": "translated",
             "value": "Plus d'actions"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Más acciones"
+          }
         }
       }
     },
@@ -14138,6 +15656,12 @@
             "state": "translated",
             "value": "Principalement dégagé"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mayormente despejado"
+          }
         }
       }
     },
@@ -14166,6 +15690,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Souris"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mouse"
           }
         }
       }
@@ -14368,6 +15898,12 @@
             "state": "translated",
             "value": "Déplacer vers la Corbeille"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mover a la Papelera"
+          }
         }
       }
     },
@@ -14397,6 +15933,12 @@
             "state": "translated",
             "value": "Films"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Películas"
+          }
         }
       }
     },
@@ -14425,6 +15967,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Musique"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Música"
           }
         }
       }
@@ -14490,6 +16038,12 @@
             "state": "translated",
             "value": "Navigation"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navegación"
+          }
         }
       }
     },
@@ -14519,6 +16073,12 @@
             "state": "translated",
             "value": "Attention requise"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Requiere atención"
+          }
         }
       }
     },
@@ -14547,6 +16107,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Redémarrage requis"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Requiere reinicio"
           }
         }
       }
@@ -14647,6 +16213,12 @@
             "state": "translated",
             "value": "Suivant"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siguiente"
+          }
         }
       }
     },
@@ -14674,6 +16246,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Photo suivante"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siguiente foto"
           }
         }
       }
@@ -14773,6 +16351,12 @@
             "state": "translated",
             "value": "Aucune donnée de batterie"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hay datos de batería"
+          }
         }
       }
     },
@@ -14837,6 +16421,12 @@
             "state": "translated",
             "value": "Aucune donnée de statut"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hay datos de estado"
+          }
         }
       }
     },
@@ -14865,6 +16455,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aucun événement à venir"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hay próximos eventos"
           }
         }
       }
@@ -14962,6 +16558,12 @@
             "state": "translated",
             "value": "Aucun calendrier disponible."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hay calendarios disponibles."
+          }
         }
       }
     },
@@ -15025,6 +16627,12 @@
             "state": "translated",
             "value": "Aucune date d'échéance"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin fecha límite"
+          }
         }
       }
     },
@@ -15087,6 +16695,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aucun rappel incomplet pour le moment."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hay recordatorios pendientes en este momento."
           }
         }
       }
@@ -15186,6 +16800,12 @@
             "state": "translated",
             "value": "Aucune autre application trouvée dans /Applications, /System/Applications ou ~/Applications."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se encontraron otras apps en /Applications, /System/Applications ni ~/Applications."
+          }
         }
       }
     },
@@ -15251,6 +16871,12 @@
             "state": "translated",
             "value": "Aucun thème n'est actif. Vos personnalisations d'apparence s'appliquent directement."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hay ningún tema activo. Tus personalizaciones de apariencia se aplican directamente."
+          }
         }
       }
     },
@@ -15281,6 +16907,12 @@
             "state": "translated",
             "value": "Aucun thème installé pour l’instant."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aún no hay temas instalados."
+          }
         }
       }
     },
@@ -15310,6 +16942,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aucun déclencheur — ce profil ne s'active que lorsqu'il est sélectionné manuellement."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin activadores: este perfil solo se activa cuando lo eliges manualmente."
           }
         }
       }
@@ -15409,6 +17047,12 @@
             "state": "translated",
             "value": "Aucun widget dans le marketplace pour l’instant."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aún no hay widgets en la tienda."
+          }
         }
       }
     },
@@ -15438,6 +17082,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aucun widget installé pour l’instant."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aún no hay widgets instalados."
           }
         }
       }
@@ -15536,6 +17186,12 @@
             "state": "translated",
             "value": "Non déterminé"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin determinar"
+          }
         }
       }
     },
@@ -15599,6 +17255,12 @@
             "state": "translated",
             "value": "Non défini"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin definir"
+          }
         }
       }
     },
@@ -15627,6 +17289,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pas encore accordé"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aún no concedido"
           }
         }
       }
@@ -15726,6 +17394,12 @@
             "state": "translated",
             "value": "Nombre"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Número"
+          }
         }
       }
     },
@@ -15756,6 +17430,12 @@
             "state": "translated",
             "value": "OK"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aceptar"
+          }
         }
       }
     },
@@ -15784,6 +17464,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "EN RETARD"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VENCIDA"
           }
         }
       }
@@ -15815,6 +17501,12 @@
             "state": "translated",
             "value": "Désactivé"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desactivado"
+          }
         }
       }
     },
@@ -15843,6 +17535,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sur batterie"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con batería"
           }
         }
       }
@@ -15874,6 +17572,12 @@
             "state": "translated",
             "value": "Sur chaque application"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En cada app"
+          }
         }
       }
     },
@@ -15903,6 +17607,12 @@
             "state": "translated",
             "value": "Sur secteur"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conectado a la corriente"
+          }
         }
       }
     },
@@ -15930,6 +17640,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dans l'aperçu de la tuile de dossier, affichez un point simple ou le total complet sur chaque application marquée. Le dossier ouvert affiche toujours le total."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En la vista previa del ícono de carpeta, muestra un punto simple o el conteo completo en cada app con globo. La carpeta abierta siempre muestra el conteo."
           }
         }
       }
@@ -15960,6 +17676,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Opacité"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opacidad"
           }
         }
       }
@@ -16193,6 +17915,12 @@
             "state": "translated",
             "value": "Ouvrir Google"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Google"
+          }
         }
       }
     },
@@ -16326,6 +18054,12 @@
             "state": "translated",
             "value": "Ouvrir le menu Démarrer"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir menú Inicio"
+          }
         }
       }
     },
@@ -16355,6 +18089,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ouvrir le menu Démarrer depuis la tuile Finder"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir menú Inicio desde el ícono de Finder"
           }
         }
       }
@@ -16419,6 +18159,12 @@
             "state": "translated",
             "value": "Ouvrir les Réglages système (Accessibilité)"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Ajustes del Sistema (Accesibilidad)"
+          }
         }
       }
     },
@@ -16447,6 +18193,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ouvrir les Réglages système (Automatisation)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Ajustes del Sistema (Automatización)"
           }
         }
       }
@@ -16477,6 +18229,12 @@
             "state": "translated",
             "value": "Ouvrir les Réglages système (Calendriers)"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Ajustes del Sistema (Calendarios)"
+          }
         }
       }
     },
@@ -16505,6 +18263,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ouvrir les Réglages système (Accès complet au disque)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Ajustes del Sistema (Acceso total al disco)"
           }
         }
       }
@@ -16535,6 +18299,12 @@
             "state": "translated",
             "value": "Ouvrir les Réglages système (Services de localisation)"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Ajustes del Sistema (Localización)"
+          }
         }
       }
     },
@@ -16564,6 +18334,12 @@
             "state": "translated",
             "value": "Ouvrir les Réglages système (Rappels)"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Ajustes del Sistema (Recordatorios)"
+          }
         }
       }
     },
@@ -16592,6 +18368,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ouvrir les Réglages système (Enregistrement d’écran)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Ajustes del Sistema (Grabación de pantalla)"
           }
         }
       }
@@ -16827,6 +18609,12 @@
             "state": "translated",
             "value": "Ouvre un menu compact avec les fichiers récents, toutes les applications et les options d'alimentation épinglées à côté du dock."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre un menú compacto con archivos recientes, todas las apps y opciones de energía fijado junto al dock."
+          }
         }
       }
     },
@@ -16856,6 +18644,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Facultatif : un enregistrement écran ou une capture d'écran aide à expliquer les problèmes d'interface. Les images et vidéos sont prises en charge."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opcional: una grabación o captura de pantalla ayuda a explicar problemas de la interfaz. Se admiten imágenes y videos."
           }
         }
       }
@@ -16955,6 +18749,12 @@
             "state": "translated",
             "value": "Autres applications"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otras apps"
+          }
         }
       }
     },
@@ -16983,6 +18783,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Couvert"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nublado"
           }
         }
       }
@@ -17046,6 +18852,12 @@
             "state": "translated",
             "value": "Surcharger %lld clés docky.* ?"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Sobrescribir %lld claves docky.*?"
+          }
         }
       },
       "comment": "Loaded through L10n.text(_:) from a String-based API (NSAlert, NSMenuItem, help, accessibility)."
@@ -17074,6 +18886,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Remplacer et relancer"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sobrescribir y reiniciar"
           }
         }
       },
@@ -17105,6 +18923,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Remplace le contour du cadre par une couleur pleine. Lorsqu'il est désactivé, Docky utilise son contour de verre par défaut (aucun contour lorsque Verre est désactivé)."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sobrescribe el contorno con un color sólido. Cuando está desactivado, Docky usa su trazo de vidrio predeterminado (o ningún trazo si Vidrio está desactivado)."
           }
         }
       }
@@ -17169,6 +18993,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Remplacement : %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sobrescritura: %@"
           }
         }
       }
@@ -17268,6 +19098,12 @@
             "state": "translated",
             "value": "Marge entre le panneau du dock et la vue du cadre, par bord. Le mode axe complet les force à 0, quel que soit le réglage."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Margen entre el panel del dock y el contorno, por borde. El modo de eje completo los fuerza a 0 de todos modos."
+          }
         }
       }
     },
@@ -17296,6 +19132,12 @@
             "state": "translated",
             "value": "Pagination"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paginado"
+          }
         }
       }
     },
@@ -17323,6 +19165,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Affiche le compteur de notifications rouge (comme le total de non-lus de Mail) sur les tuiles des applications en cours. Lu depuis le Dock du système, donc nécessite l'autorisation Accessibilité."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Muestra el conteo rojo de notificaciones (como el total de no leídos de Mail) en los íconos de apps en ejecución. Se lee del Dock del sistema, por lo que requiere permiso de Accesibilidad."
           }
         }
       }
@@ -17353,6 +19201,12 @@
             "state": "translated",
             "value": "Partiellement nuageux"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parcialmente nublado"
+          }
         }
       }
     },
@@ -17380,6 +19234,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Style de badge par application"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estilo de globo por app"
           }
         }
       }
@@ -17411,6 +19271,12 @@
             "state": "translated",
             "value": "Rayons par angle"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Radios por esquina"
+          }
         }
       }
     },
@@ -17440,6 +19306,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Marges de contenu par bord"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Márgenes de contenido por borde"
           }
         }
       }
@@ -17506,6 +19378,12 @@
             "state": "translated",
             "value": "Cadre photo"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Marco de fotos"
+          }
         }
       }
     },
@@ -17570,6 +19448,12 @@
             "state": "translated",
             "value": "Choisissez une image personnalisée pour la tuile du menu Démarrer. Par défaut, l'icône propre de Docky."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige una imagen personalizada para el ícono del menú Inicio. Por defecto utiliza el ícono de la app de Docky."
+          }
         }
       }
     },
@@ -17597,6 +19481,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Choisissez une image à afficher derrière la grille du Launchpad. Si elle n'est pas définie, Docky utilise le papier peint actuel du bureau. Combiné avec le curseur de transparence du voile sombre ci-dessus."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige una imagen para mostrar detrás de la cuadrícula de Launchpad. Si no se define, Docky usa el fondo de pantalla actual. Se combina con el control de transparencia para la capa oscura superpuesta."
           }
         }
       }
@@ -17626,6 +19516,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Choisir une application…"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elegir app…"
           }
         }
       }
@@ -17725,6 +19621,12 @@
             "state": "translated",
             "value": "Choisissez-en un dans le Marketplace ci-dessus ou installez un fichier `.dockywidget` manuellement."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige uno de la tienda de arriba o instala un archivo `.dockywidget` manualmente."
+          }
         }
       }
     },
@@ -17753,6 +19655,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Images"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Imágenes"
           }
         }
       }
@@ -17818,6 +19726,12 @@
             "state": "translated",
             "value": "Épinglez l'icône du thème actif pour cette application comme substitution. Sans cela, l'icône du thème s'applique déjà ; l'épingler conserve ce choix si vous changez de thème."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fija el ícono del tema activo para esta app como tu sobrescritura. Sin esto, el ícono del tema ya se aplica; fijarlo conserva la elección si cambias de tema."
+          }
         }
       }
     },
@@ -17847,6 +19761,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Épinglez ce widget à une ville, ou utilisez la position actuelle de l'appareil."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fija este widget a una ciudad o usa la ubicación actual del dispositivo."
           }
         }
       }
@@ -17913,6 +19833,12 @@
             "state": "translated",
             "value": "Les réglages de placement, de visibilité, de clic sur les tuiles d'applications, des dossiers d'applications, des widgets, du lancement et du dock système reviendront à leurs valeurs par défaut. L'apparence, les icônes d'applications et autres réglages ne sont pas affectés. Cette action est irréversible."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los ajustes de ubicación, visibilidad, clic en íconos de apps, carpetas de apps, widgets, inicio y Dock del sistema volverán a sus valores predeterminados. La apariencia, los íconos de apps y otros ajustes no se ven afectados. Esto no se puede deshacer."
+          }
         }
       }
     },
@@ -17975,6 +19901,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Polissage de votre flux de dock"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Puliendo el flujo de tu dock"
           }
         }
       }
@@ -18039,6 +19971,12 @@
             "state": "translated",
             "value": "Appuyer sur une touche"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Presiona una tecla"
+          }
         }
       }
     },
@@ -18101,6 +20039,12 @@
             "state": "translated",
             "value": "Les modes d'aperçu s'appliquent uniquement à la mise en page Vignettes. La mise en page Liste utilise la liste de lignes elle-même comme aperçu."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los modos de vista previa solo se aplican al diseño Miniaturas. El diseño Lista usa la propia lista de filas como vista previa."
+          }
         }
       }
     },
@@ -18129,6 +20073,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Apercevoir les dossiers épinglés instantanément"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Previsualiza carpetas fijadas al instante"
           }
         }
       }
@@ -18226,6 +20176,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "La classe principale n'est pas conforme à DockyWidgetPlugin."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La clase principal no cumple con DockyWidgetPlugin."
           }
         }
       }
@@ -18326,6 +20282,12 @@
             "state": "translated",
             "value": "Profil"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Perfil"
+          }
         }
       }
     },
@@ -18355,6 +20317,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nom du profil"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nombre del perfil"
           }
         }
       }
@@ -18418,6 +20386,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Trimestres"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuartos"
           }
         }
       }
@@ -18551,6 +20525,12 @@
             "state": "translated",
             "value": "Rayon"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Radio"
+          }
         }
       }
     },
@@ -18579,6 +20559,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pluie"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lluvia"
           }
         }
       }
@@ -18677,6 +20663,12 @@
             "state": "translated",
             "value": "Applications récentes"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apps recientes"
+          }
         }
       }
     },
@@ -18705,6 +20697,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Récents"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recientes"
           }
         }
       }
@@ -18735,6 +20733,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Actualiser"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Actualizar"
           }
         }
       }
@@ -19004,6 +21008,12 @@
             "state": "translated",
             "value": "Relâcher le raccourci pour basculer"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suelta el atajo para cambiar"
+          }
         }
       }
     },
@@ -19101,6 +21111,12 @@
             "state": "translated",
             "value": "Rappels indisponibles"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recordatorios no disponibles"
+          }
         }
       }
     },
@@ -19129,6 +21145,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Les Rappels ne sont pas disponibles pour le moment."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recordatorios no está disponible en este momento."
           }
         }
       }
@@ -19159,6 +21181,12 @@
             "state": "translated",
             "value": "Un accès en lecture à Reminders est nécessaire pour afficher vos tâches en cours."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se necesita acceso de lectura a Recordatorios para mostrar tus tareas abiertas."
+          }
         }
       }
     },
@@ -19188,6 +21216,12 @@
             "state": "translated",
             "value": "Retirer la pile"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitar pila"
+          }
         }
       }
     },
@@ -19216,6 +21250,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Retirer le widget"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitar widget"
           }
         }
       }
@@ -19280,6 +21320,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Retirer de Docky"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitar de Docky"
           }
         }
       }
@@ -19376,6 +21422,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Renommer"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Renombrar"
           }
         }
       },
@@ -19476,6 +21528,12 @@
             "state": "translated",
             "value": "Renommer…"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Renombrar…"
+          }
         }
       }
     },
@@ -19505,6 +21563,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Réorganiser"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reordenar"
           }
         }
       }
@@ -19638,6 +21702,12 @@
             "state": "translated",
             "value": "Remplace l’icône de la tuile du menu Démarrer."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reemplaza el ícono del menú Inicio."
+          }
         }
       }
     },
@@ -19668,6 +21738,12 @@
             "state": "translated",
             "value": "Remplace la couleur de suivi de texte par défaut de la ligne de séparation simple. Sans effet sur les séparateurs utilisant une image personnalisée."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reemplaza el color predeterminado (que sigue al color del texto) de la línea divisoria simple. No afecta a los divisores que usan una imagen personalizada."
+          }
         }
       }
     },
@@ -19696,6 +21772,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Demander l'accès"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solicitar acceso"
           }
         }
       }
@@ -19726,6 +21808,12 @@
             "state": "translated",
             "value": "Demander l’accès à Accessibility"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solicitar acceso de Accesibilidad"
+          }
         }
       }
     },
@@ -19754,6 +21842,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Demander l’accès aux calendriers"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solicitar acceso a Calendario"
           }
         }
       }
@@ -19784,6 +21878,12 @@
             "state": "translated",
             "value": "Demander l'accès à Finder"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solicitar acceso a Finder"
+          }
         }
       }
     },
@@ -19812,6 +21912,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Demander l’accès à la localisation"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solicitar acceso a la ubicación"
           }
         }
       }
@@ -19842,6 +21948,12 @@
             "state": "translated",
             "value": "Demander l’accès aux Rappels"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solicitar acceso a Recordatorios"
+          }
         }
       }
     },
@@ -19871,6 +21983,12 @@
             "state": "translated",
             "value": "Demander l’accès à Screen Recording"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solicitar acceso de grabación de pantalla"
+          }
         }
       }
     },
@@ -19899,6 +22017,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Demander l’accès à System Events"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solicitar acceso a System Events"
           }
         }
       }
@@ -19964,6 +22088,12 @@
             "state": "translated",
             "value": "Réinitialiser"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restablecer"
+          }
         }
       }
     },
@@ -20028,6 +22158,12 @@
             "state": "translated",
             "value": "Réinitialiser le comportement"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restablecer comportamiento"
+          }
         }
       }
     },
@@ -20057,6 +22193,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Réinitialiser les réglages de comportement"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restablecer ajustes de comportamiento"
           }
         }
       }
@@ -20088,6 +22230,12 @@
             "state": "translated",
             "value": "Réinitialiser les réglages d’apparence ?"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Restablecer ajustes de apariencia?"
+          }
         }
       }
     },
@@ -20118,6 +22266,12 @@
             "state": "translated",
             "value": "Réinitialiser les réglages de comportement ?"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Restablecer ajustes de comportamiento?"
+          }
         }
       }
     },
@@ -20147,6 +22301,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Réinitialiser par défaut"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restablecer valores predeterminados"
           }
         }
       }
@@ -20210,6 +22370,12 @@
             "state": "translated",
             "value": "Redémarrer Docky"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reiniciar Docky"
+          }
         }
       },
       "comment": "Loaded through L10n.text(_:) from a String-based API (NSAlert, NSMenuItem, help, accessibility)."
@@ -20241,6 +22407,12 @@
             "state": "translated",
             "value": "Redémarrer Docky pour appliquer les modifications"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reinicia Docky para aplicar los cambios"
+          }
         }
       }
     },
@@ -20268,6 +22440,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Redémarrer Docky pour commencer à utiliser %@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reinicia Docky para empezar a usar %@."
           }
         }
       },
@@ -20298,6 +22476,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Redémarrer..."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reiniciar..."
           }
         }
       }
@@ -20500,6 +22684,12 @@
             "state": "translated",
             "value": "Afficher le dossier des thèmes"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar carpeta de temas"
+          }
         }
       }
     },
@@ -20530,6 +22720,12 @@
             "state": "translated",
             "value": "Afficher le dossier des widgets"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar carpeta de widgets"
+          }
         }
       }
     },
@@ -20558,6 +22754,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Afficher et gérer les fichiers dans Finder"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Muestra y gestiona archivos en Finder"
           }
         }
       }
@@ -20622,6 +22824,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rétablit tous les réglages de comportement (placement, visibilité, clic sur les tuiles d'applications, dossiers d'applications, widgets, lancement, dock système) sur leur valeur par défaut intégrée. Utilisez ceci lorsqu'un thème a orienté le comportement dans une direction que vous voulez annuler."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restaura todos los ajustes de comportamiento (ubicación, visibilidad, clic en íconos de apps, carpetas de apps, widgets, inicio, Dock del sistema) a sus valores predeterminados. Úsalo cuando un tema haya cambiado el comportamiento de una forma que quieras deshacer."
           }
         }
       }
@@ -20720,6 +22928,12 @@
             "state": "translated",
             "value": "Droite et Gauche"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Derecha e izquierda"
+          }
         }
       }
     },
@@ -20817,6 +23031,12 @@
             "state": "translated",
             "value": "Rubanisation de votre mise en page"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dándole elasticidad a tu diseño"
+          }
         }
       }
     },
@@ -20881,6 +23101,12 @@
             "state": "translated",
             "value": "Lancer rapidement les actions de menu sélectionnées"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ejecuta acciones de menú seleccionadas rápidamente"
+          }
         }
       }
     },
@@ -20909,6 +23135,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "sam."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sáb"
           }
         }
       }
@@ -20973,6 +23205,12 @@
             "state": "translated",
             "value": "Met à l'échelle les images personnalisées des séparateurs. Sans effet sur la ligne par défaut."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escala las imágenes personalizadas de los divisores. No afecta a la línea predeterminada."
+          }
         }
       }
     },
@@ -21001,6 +23239,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Redimensionne la taille affichée de l’indicateur."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escala el tamaño con el que se dibuja el indicador."
           }
         }
       }
@@ -21031,6 +23275,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Analyse…"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscando…"
           }
         }
       }
@@ -21096,6 +23346,12 @@
             "state": "translated",
             "value": "Enregistrement d'écran"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grabación de pantalla"
+          }
         }
       }
     },
@@ -21125,6 +23381,12 @@
             "state": "translated",
             "value": "Échec de l'action de script"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La acción de script falló"
+          }
         }
       }
     },
@@ -21153,6 +23415,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "L’action de script n’a pas été autorisée"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se permitió la acción de script"
           }
         }
       }
@@ -21252,6 +23520,12 @@
             "state": "translated",
             "value": "Sens de défilement"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dirección de desplazamiento"
+          }
         }
       }
     },
@@ -21281,6 +23555,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rechercher"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar"
           }
         }
       }
@@ -21346,6 +23626,12 @@
             "state": "translated",
             "value": "Rechercher sur Google"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar en Google"
+          }
         }
       }
     },
@@ -21375,6 +23661,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rechercher applications et fichiers récents"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar apps y archivos recientes"
           }
         }
       }
@@ -21406,6 +23698,12 @@
             "state": "translated",
             "value": "Rechercher une ville"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar una ciudad"
+          }
         }
       }
     },
@@ -21435,6 +23733,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Recherchez sur le web, cliquez pour ouvrir Google dans votre navigateur par défaut."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Busca en la web; haz clic para abrir Google en tu navegador predeterminado."
           }
         }
       }
@@ -21498,6 +23802,12 @@
             "state": "translated",
             "value": "Recherche…"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscando…"
+          }
         }
       }
     },
@@ -21527,6 +23837,12 @@
             "state": "translated",
             "value": "Sécurité"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seguridad"
+          }
         }
       }
     },
@@ -21555,6 +23871,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Envoyer"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enviar"
           }
         }
       }
@@ -21586,6 +23908,12 @@
             "state": "translated",
             "value": "Envoyer un retour"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enviar comentarios"
+          }
         }
       }
     },
@@ -21615,6 +23943,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Envoyer des commentaires..."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enviar comentarios..."
           }
         }
       }
@@ -21680,6 +24014,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Définit les dimensions de la grille du Launchpad. Docky utilise ces nombres lorsque les icônes tiennent à l'écran, par défaut 7 colonnes × 5 lignes. Le nombre de lignes est ignoré lorsque le défilement est continu."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Define las dimensiones de la cuadrícula de Launchpad. Docky usa estos valores cuando los íconos caben en pantalla, con 7 columnas × 5 filas por defecto. El número de filas se ignora cuando la dirección de desplazamiento es continua."
           }
         }
       }
@@ -21815,6 +24155,12 @@
             "state": "translated",
             "value": "Couleur de l'ombre"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Color de la sombra"
+          }
         }
       }
     },
@@ -21845,6 +24191,12 @@
             "state": "translated",
             "value": "Opacité de l'ombre"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opacidad de la sombra"
+          }
         }
       }
     },
@@ -21874,6 +24226,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rayon de l'ombre"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Radio de la sombra"
           }
         }
       }
@@ -21972,6 +24330,12 @@
             "state": "translated",
             "value": "Déplace les séparateurs selon l'axe court de la tuile. Les valeurs positives les déplacent vers le haut dans un dock horizontal ou vers la droite dans un dock vertical."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desplaza los divisores a lo largo del eje corto del ícono. Los valores positivos los mueven hacia arriba en docks horizontales o hacia la derecha en docks verticales."
+          }
         }
       }
     },
@@ -22000,6 +24364,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Déplace l'indicateur plus loin ou plus près du bord de l'écran."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aleja o acerca el indicador al borde de la pantalla."
           }
         }
       }
@@ -22098,6 +24468,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Afficher tout"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar todo"
           }
         }
       }
@@ -22265,6 +24641,12 @@
             "state": "translated",
             "value": "Afficher plus"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar más"
+          }
         }
       }
     },
@@ -22292,6 +24674,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Voir plus (%lld)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar más (%lld)"
           }
         }
       },
@@ -22321,6 +24709,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Afficher les badges de notification"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar globos de notificación"
           }
         }
       }
@@ -22417,6 +24811,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Afficher les événements de"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar eventos de"
           }
         }
       }
@@ -22515,6 +24915,12 @@
             "state": "translated",
             "value": "Afficher la météo locale dans le dock"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Muestra el clima local en el dock"
+          }
         }
       }
     },
@@ -22543,6 +24949,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Afficher la météo locale dans le dock."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Muestra el clima local en el dock."
           }
         }
       }
@@ -22573,6 +24985,12 @@
             "state": "translated",
             "value": "Afficher les tâches en cours dans le dock"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Muestra las tareas abiertas en el dock"
+          }
         }
       }
     },
@@ -22601,6 +25019,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Afficher les événements à venir dans le dock"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Muestra los próximos eventos en el dock"
           }
         }
       }
@@ -22631,6 +25055,12 @@
             "state": "translated",
             "value": "Affichez vos tâches en cours."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Muestra tus tareas abiertas."
+          }
         }
       }
     },
@@ -22660,6 +25090,12 @@
             "state": "translated",
             "value": "Affiche vos événements à venir."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Muestra tus próximos eventos."
+          }
         }
       }
     },
@@ -22687,6 +25123,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Affiché quand la Corbeille contient des éléments."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se muestra cuando la Papelera tiene elementos."
           }
         }
       }
@@ -22717,6 +25159,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Affiché quand la Corbeille est vide."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se muestra cuando la Papelera está vacía."
           }
         }
       }
@@ -23122,6 +25570,12 @@
             "state": "translated",
             "value": "Affiche vos propres photos, en les faisant défiler comme un diaporama."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Muestra tus propias fotos, recorriéndolas como una presentación."
+          }
         }
       }
     },
@@ -23149,6 +25603,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rétrécit l'icône rendue à l'intérieur de chaque tuile sans modifier sa boîte de mise en page. Utile pour les cases de tuile épaisses au style Windows."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reduce la imagen dibujada dentro de cada ícono sin cambiar su espacio en el diseño. Útil para íconos amplios al estilo de Windows."
           }
         }
       }
@@ -23179,6 +25639,12 @@
             "state": "translated",
             "value": "Éteindre..."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar..."
+          }
         }
       }
     },
@@ -23206,6 +25672,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Raccourcis à une seule touche qui se déclenchent lorsque le sélecteur est ouvert et que vous maintenez encore sa touche modificateur. Réaffectez à n'importe quelle touche ; les touches de navigation (Tab, flèches, Échap, Retour) l'emportent toujours sur une affectation conflictuelle."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atajos de una sola tecla que se activan mientras el conmutador está abierto y sigues manteniendo su modificador. Reasígnalos a cualquier tecla; las teclas de navegación (Tab, flechas, Escape, Retorno) siempre tienen prioridad sobre una asignación en conflicto."
           }
         }
       }
@@ -23236,6 +25708,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Taille"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tamaño"
           }
         }
       }
@@ -23299,6 +25777,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Veille"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reposo"
           }
         }
       }
@@ -23396,6 +25880,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Petit"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pequeño"
           }
         }
       }
@@ -23495,6 +25985,12 @@
             "state": "translated",
             "value": "Neige"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nieve"
+          }
         }
       }
     },
@@ -23524,6 +26020,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Trier"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ordenar"
           }
         }
       }
@@ -23588,6 +26090,12 @@
             "state": "translated",
             "value": "Tri des choses brillantes"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ordenando las cosas brillantes"
+          }
         }
       }
     },
@@ -23617,6 +26125,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Espace avec l'application…"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Space con app…"
           }
         }
       }
@@ -23886,6 +26400,12 @@
             "state": "translated",
             "value": "Menu Démarrer"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menú Inicio"
+          }
         }
       }
     },
@@ -23984,6 +26504,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "menu Démarrer"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menú Inicio"
           }
         }
       }
@@ -24090,6 +26616,12 @@
             "state": "translated",
             "value": "Étape %lld sur %lld"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paso %lld de %lld"
+          }
         }
       }
     },
@@ -24119,6 +26651,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Arrêter de réorganiser les icônes"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dejar de reorganizar íconos"
           }
         }
       }
@@ -24150,6 +26688,12 @@
             "state": "translated",
             "value": "S'étire pour absorber l'espace restant lorsque le dock couvre l'axe complet de l'écran."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se estira para ocupar el espacio sobrante cuando el dock abarca todo el eje de la pantalla."
+          }
         }
       }
     },
@@ -24179,6 +26723,12 @@
             "state": "translated",
             "value": "dim."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dom"
+          }
         }
       }
     },
@@ -24207,6 +26757,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Assistance"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Soporte"
           }
         }
       }
@@ -24238,6 +26794,12 @@
             "state": "translated",
             "value": "Supprime complètement la barre de survol. Avec plusieurs profils, vous pouvez tout de même basculer depuis les Réglages ou via des déclencheurs. Avec un seul profil, la barre est toujours masquée."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oculta por completo la franja que aparece al pasar el cursor. Con varios perfiles, aún puedes cambiar desde Ajustes o mediante activadores. Con un solo perfil, la franja siempre está oculta."
+          }
         }
       }
     },
@@ -24267,6 +26829,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Basculer"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cambiar"
           }
         }
       }
@@ -24332,6 +26900,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bascule"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conmutador"
           }
         }
       }
@@ -24465,6 +27039,12 @@
             "state": "translated",
             "value": "L’action System Events a échoué"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Falló la acción de System Events"
+          }
         }
       }
     },
@@ -24493,6 +27073,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "L’automatisation System Events n’a pas été autorisée"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se permitió la automatización de System Events"
           }
         }
       }
@@ -24591,6 +27177,12 @@
             "state": "translated",
             "value": "À FAIRE"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PENDIENTES"
+          }
         }
       }
     },
@@ -24619,6 +27211,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "AUJOURD'HUI"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HOY"
           }
         }
       }
@@ -24649,6 +27247,12 @@
             "state": "translated",
             "value": "TOM"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MAÑ"
+          }
         }
       }
     },
@@ -24677,6 +27281,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Température"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Temperatura"
           }
         }
       }
@@ -24707,6 +27317,12 @@
             "state": "translated",
             "value": "L'archive téléchargée ne contient pas de bundle .dockywidget."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El archivo descargado no contiene un paquete .dockywidget."
+          }
         }
       }
     },
@@ -24736,6 +27352,12 @@
             "state": "translated",
             "value": "Le lien ne contenait pas d'URL de téléchargement HTTPS valide."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El enlace no incluía una URL de descarga HTTPS válida."
+          }
         }
       }
     },
@@ -24764,6 +27386,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "L'archive du thème ne contient pas de manifeste theme.json."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El archivo del tema no contiene un manifiesto theme.json."
           }
         }
       }
@@ -24795,6 +27423,12 @@
             "state": "translated",
             "value": "Le bundle du thème sera supprimé du disque. Cette action est irréversible."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El paquete del tema se eliminará del disco. Esto no se puede deshacer."
+          }
         }
       }
     },
@@ -24823,6 +27457,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Thèmes"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Temas"
           }
         }
       }
@@ -24854,6 +27494,12 @@
             "state": "translated",
             "value": "Celles-ci priment sur le thème actif. Effacez-les pour laisser le thème s'afficher."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estos ajustes tienen prioridad sobre el tema activo. Bórralos para que se vea el tema."
+          }
         }
       }
     },
@@ -24883,6 +27529,12 @@
             "state": "translated",
             "value": "Cette autorisation est déjà activée. Vous pouvez continuer quand vous êtes prêt."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Este permiso ya está activado. Puedes continuar cuando quieras."
+          }
         }
       }
     },
@@ -24911,6 +27563,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cette autorisation débloque une fonctionnalité optionnelle et peut être accordée plus tard dans les Réglages."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Este permiso desbloquea una función opcional y puede concederse más tarde desde Ajustes."
           }
         }
       }
@@ -24942,6 +27600,12 @@
             "state": "translated",
             "value": "Ce widget n’a aucun réglage."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Este widget no tiene ajustes."
+          }
         }
       }
     },
@@ -24970,6 +27634,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "jeu."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jue"
           }
         }
       }
@@ -25033,6 +27703,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Orage"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tormenta eléctrica"
           }
         }
       }
@@ -25131,6 +27807,12 @@
             "state": "translated",
             "value": "Effet de survol de la tuile"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Efecto al pasar el cursor sobre el ícono"
+          }
         }
       }
     },
@@ -25158,6 +27840,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Marge interne de l'icône de tuile"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Margen del ícono"
           }
         }
       }
@@ -25324,6 +28012,12 @@
             "state": "translated",
             "value": "Les tuiles proches du pointeur grandissent vers la taille agrandie et s'estompent progressivement avec la distance. Alfa : problèmes connus avec certains types de tuiles et pendant le réorganisage."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los íconos cerca del puntero crecen hacia el tamaño ampliado y se reducen suavemente con la distancia. Alfa: problemas conocidos con ciertos tipos de ícono y al reordenar."
+          }
         }
       }
     },
@@ -25353,6 +28047,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Heure de la journée"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hora del día"
           }
         }
       }
@@ -25418,6 +28118,12 @@
             "state": "translated",
             "value": "À"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hasta"
+          }
         }
       }
     },
@@ -25447,6 +28153,12 @@
             "state": "translated",
             "value": "Aujourd'hui"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hoy"
+          }
         }
       }
     },
@@ -25475,6 +28187,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aujourd'hui, toute la journée"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hoy, todo el día"
           }
         }
       }
@@ -25506,6 +28224,12 @@
             "state": "translated",
             "value": "Active ou désactive le raccourci ⌃⌥S, le widget menu Démarrer dans la palette de l'éditeur de dock et la substitution de tuile Finder ci-dessous."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activa o desactiva el atajo ⌃⌥S, el widget del menú Inicio en la paleta del editor del dock y la sustitución del ícono de Finder de abajo."
+          }
         }
       }
     },
@@ -25534,6 +28258,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Demain"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mañana"
           }
         }
       }
@@ -25597,6 +28327,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Haut début"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Superior inicial"
           }
         }
       }
@@ -25695,6 +28431,12 @@
             "state": "translated",
             "value": "En haut à droite"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Superior final"
+          }
         }
       }
     },
@@ -25723,6 +28465,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Haut et Bas"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arriba y abajo"
           }
         }
       }
@@ -25753,6 +28501,12 @@
             "state": "translated",
             "value": "La valeur de premier niveau du plist n’est pas un dictionnaire."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El valor de nivel superior del plist no es un diccionario."
+          }
         }
       }
     },
@@ -25778,6 +28532,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trackpad"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "Trackpad"
@@ -25810,6 +28570,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fin"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Final"
           }
         }
       }
@@ -25909,6 +28675,12 @@
             "state": "translated",
             "value": "Corbeille (%@)"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Papelera (%@)"
+          }
         }
       }
     },
@@ -25936,6 +28708,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Traite le dock comme une étagère d'applications et de widgets épinglés. Utilisez les interrupteurs pour choisir quels éléments fixes, Finder, Corbeille ou les deux, disparaissent en mode étagère."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trata el dock como una repisa de apps fijadas y widgets. Usa los interruptores para elegir qué elementos fijos (Finder, Papelera o ambos) desaparecen mientras el modo repisa está activado."
           }
         }
       }
@@ -26035,6 +28813,12 @@
             "state": "translated",
             "value": "Réessayer"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Intentar de nuevo"
+          }
         }
       }
     },
@@ -26063,6 +28847,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "mar."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mar"
           }
         }
       }
@@ -26161,6 +28951,12 @@
             "state": "translated",
             "value": "Désactiver le masquage"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desactivar ocultación"
+          }
         }
       }
     },
@@ -26189,6 +28985,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Activer le masquage"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activar ocultación"
           }
         }
       }
@@ -26219,6 +29021,12 @@
             "state": "translated",
             "value": "Désactiver l’agrandissement"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desactivar ampliación"
+          }
         }
       }
     },
@@ -26248,6 +29056,12 @@
             "state": "translated",
             "value": "Activer l'agrandissement"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activar ampliación"
+          }
         }
       }
     },
@@ -26275,6 +29089,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Désactivez pour afficher l'image choisie nettement. Par défaut activé, pour adoucir le papier peint du bureau en un arrière-plan neutre."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desactívalo para mostrar la imagen elegida nítida. Está activado por defecto para suavizar el fondo de pantalla del escritorio y convertirlo en un fondo neutro."
           }
         }
       }
@@ -26304,6 +29124,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Saisir un raccourci"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escribe el atajo"
           }
         }
       }
@@ -26369,6 +29195,12 @@
             "state": "translated",
             "value": "Souligner"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Subrayado"
+          }
         }
       }
     },
@@ -26397,6 +29229,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Retirer des favoris"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitar de favoritos"
           }
         }
       }
@@ -26427,6 +29265,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dissocier"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desagrupar"
           }
         }
       }
@@ -26490,6 +29334,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Inconnu"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desconocido"
           }
         }
       }
@@ -26590,6 +29440,12 @@
             "state": "translated",
             "value": "Événement sans titre"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Evento sin título"
+          }
         }
       }
     },
@@ -26618,6 +29474,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rappel sans titre"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recordatorio sin título"
           }
         }
       }
@@ -26680,6 +29542,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Utiliser l'arrière-plan actif"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usar fondo activo"
           }
         }
       }
@@ -26746,6 +29614,12 @@
             "state": "translated",
             "value": "Utiliser la position actuelle"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usar ubicación actual"
+          }
         }
       }
     },
@@ -26776,6 +29650,12 @@
             "state": "translated",
             "value": "Utiliser un bord personnalisé"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usar borde personalizado"
+          }
         }
       }
     },
@@ -26805,6 +29685,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Utiliser une couleur de séparateur personnalisée"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usar color de divisor personalizado"
           }
         }
       }
@@ -26937,6 +29823,12 @@
             "state": "translated",
             "value": "Utiliser le fond d'écran"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usar fondo de pantalla del escritorio"
+          }
         }
       }
     },
@@ -26964,6 +29856,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Utiliser l'arrière-plan de survol"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usar fondo al pasar el cursor"
           }
         }
       }
@@ -26995,6 +29893,12 @@
             "state": "translated",
             "value": "Utiliser l'ombre d'icône"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usar sombra en los íconos"
+          }
         }
       }
     },
@@ -27024,6 +29928,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Utiliser l'icône du thème"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usar ícono del tema"
           }
         }
       }
@@ -27225,6 +30135,12 @@
             "state": "translated",
             "value": "Décalage vertical"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desplazamiento vertical"
+          }
         }
       }
     },
@@ -27357,6 +30273,12 @@
             "state": "translated",
             "value": "La météo n’est pas disponible pour le moment."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El clima no está disponible en este momento."
+          }
         }
       }
     },
@@ -27386,6 +30308,12 @@
             "state": "translated",
             "value": "mer."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mié"
+          }
         }
       }
     },
@@ -27414,6 +30342,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hebdomadaire"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Semanal"
           }
         }
       }
@@ -27479,6 +30413,12 @@
             "state": "translated",
             "value": "Ce qui sera envoyé"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Qué se envía"
+          }
         }
       }
     },
@@ -27509,6 +30449,12 @@
             "state": "translated",
             "value": "Que se passe-t-il ?"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Qué está pasando?"
+          }
         }
       }
     },
@@ -27538,6 +30484,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Quand"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuando"
           }
         }
       }
@@ -27671,6 +30623,12 @@
             "state": "translated",
             "value": "Lorsque sur l'espace avec"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuando esté en el Space con"
+          }
         }
       }
     },
@@ -27700,6 +30658,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lorsque c'est activé, cliquer sur la tuile Finder ouvre le menu Démarrer au lieu d'activer Finder. Le clic droit propose toujours les actions normales de Finder."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuando está activado, al hacer clic en el ícono de Finder se abre el menú Inicio en lugar de activar Finder. El clic derecho sigue mostrando las acciones normales de Finder."
           }
         }
       }
@@ -27937,6 +30901,12 @@
             "state": "translated",
             "value": "Réglages du widget…"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes del widget…"
+          }
         }
       }
     },
@@ -27966,6 +30936,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Magasin de widgets"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tienda de widgets"
           }
         }
       }
@@ -27997,6 +30973,12 @@
             "state": "translated",
             "value": "Les bundles de widgets sont chargés une fois par lancement. Les nouvelles installations et suppressions prennent effet après un redémarrage."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los paquetes de widgets se cargan una vez por inicio. Las nuevas instalaciones y eliminaciones se aplican después de reiniciar."
+          }
         }
       }
     },
@@ -28024,6 +31006,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Widget installé"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widget instalado"
           }
         }
       },
@@ -28087,6 +31075,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Les widgets sont des plugins natifs qui s'exécutent à l'intérieur de Docky avec le même accès dont dispose Docky : Accessibilité, Automatisation, fichiers, et plus. Docky ne peut pas vérifier ce qu'un widget fait. Continuez uniquement si vous faites confiance à cette source."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los widgets son plugins nativos que se ejecutan dentro de Docky con el mismo acceso que tiene Docky: Accesibilidad, Automatización, archivos y más. Docky no puede verificar lo que hace un widget. Continúa solo si confías en esta fuente."
           }
         }
       },
@@ -28428,6 +31422,12 @@
             "state": "translated",
             "value": "Teinte de la fenêtre"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tinte de ventana"
+          }
         }
       }
     },
@@ -28526,6 +31526,12 @@
             "state": "translated",
             "value": "Vous avez %lld surcharge(s) d’apparence."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tienes %lld sobrescritura(s) de apariencia."
+          }
         }
       }
     },
@@ -28555,6 +31561,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Votre pièce jointe"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tu archivo adjunto"
           }
         }
       }
@@ -28586,6 +31598,12 @@
             "state": "translated",
             "value": "Votre message"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tu mensaje"
+          }
         }
       }
     },
@@ -28614,6 +31632,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vous êtes libres pour l’instant."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No tienes pendientes por ahora."
           }
         }
       }
@@ -28677,6 +31701,12 @@
             "state": "translated",
             "value": "Masquer l'application"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocultar"
+          }
         }
       },
       "comment": "Menu action title from MenuCatalog/actions.json."
@@ -28705,6 +31735,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "action.app.hide-others"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocultar otras"
           }
         }
       },
@@ -28735,6 +31771,12 @@
             "state": "translated",
             "value": "Ouvrir l'application"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir"
+          }
         }
       },
       "comment": "Menu action title from MenuCatalog/actions.json."
@@ -28763,6 +31805,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Quitter l'application"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salir"
           }
         }
       },
@@ -28793,6 +31841,12 @@
             "state": "translated",
             "value": "action.app.quit.option"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Forzar salida"
+          }
         }
       },
       "comment": "Menu action title from MenuCatalog/actions.json."
@@ -28821,6 +31875,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "action.app.show-all-windows"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar todas las ventanas"
           }
         }
       },
@@ -28851,6 +31911,12 @@
             "state": "translated",
             "value": "action.app.show-in-finder"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar en Finder"
+          }
         }
       },
       "comment": "Menu action title from MenuCatalog/actions.json."
@@ -28879,6 +31945,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Épingler ou désépingler l'application"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mantener en el dock"
           }
         }
       },
@@ -28909,6 +31981,12 @@
             "state": "translated",
             "value": "action.arc.new-incognito-window"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nueva ventana de incógnito"
+          }
         }
       },
       "comment": "Menu action title from MenuCatalog/actions.json."
@@ -28937,6 +32015,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nouvel onglet (Arc)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nueva pestaña"
           }
         }
       },
@@ -28967,6 +32051,12 @@
             "state": "translated",
             "value": "Nouvelle fenêtre (Arc)"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nueva ventana"
+          }
         }
       },
       "comment": "Menu action title from MenuCatalog/actions.json."
@@ -28995,6 +32085,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "action.brave.new-private-window"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nueva ventana privada"
           }
         }
       },
@@ -29025,6 +32121,12 @@
             "state": "translated",
             "value": "Nouvel onglet (Brave)"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nueva pestaña"
+          }
         }
       },
       "comment": "Menu action title from MenuCatalog/actions.json."
@@ -29053,6 +32155,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "action.brave.new-window"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nueva ventana"
           }
         }
       },
@@ -29083,6 +32191,12 @@
             "state": "translated",
             "value": "action.chrome.new-incognito-window"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nueva ventana de incógnito"
+          }
         }
       },
       "comment": "Menu action title from MenuCatalog/actions.json."
@@ -29111,6 +32225,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nouvel onglet (Chrome)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nueva pestaña"
           }
         }
       },
@@ -29141,6 +32261,12 @@
             "state": "translated",
             "value": "action.chrome.new-window"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nueva ventana"
+          }
         }
       },
       "comment": "Menu action title from MenuCatalog/actions.json."
@@ -29169,6 +32295,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "action.claude.new-conversation"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nueva conversación"
           }
         }
       },
@@ -29199,6 +32331,12 @@
             "state": "translated",
             "value": "action.cursor.new-window"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nueva ventana"
+          }
         }
       },
       "comment": "Menu action title from MenuCatalog/actions.json."
@@ -29227,6 +32365,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nouvel onglet (Dia)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nueva pestaña"
           }
         }
       },
@@ -29257,6 +32401,12 @@
             "state": "translated",
             "value": "Nouvelle fenêtre (Dia)"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nueva ventana"
+          }
         }
       },
       "comment": "Menu action title from MenuCatalog/actions.json."
@@ -29285,6 +32435,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "action.edge.new-inprivate-window"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nueva ventana InPrivate"
           }
         }
       },
@@ -29315,6 +32471,12 @@
             "state": "translated",
             "value": "Nouvel onglet (Edge)"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nueva pestaña"
+          }
         }
       },
       "comment": "Menu action title from MenuCatalog/actions.json."
@@ -29343,6 +32505,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "action.edge.new-window"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nueva ventana"
           }
         }
       },
@@ -29373,6 +32541,12 @@
             "state": "translated",
             "value": "action.firefox.new-private-window"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nueva ventana privada"
+          }
         }
       },
       "comment": "Menu action title from MenuCatalog/actions.json."
@@ -29401,6 +32575,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "action.firefox.new-window"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nueva ventana"
           }
         }
       },
@@ -29431,6 +32611,12 @@
             "state": "translated",
             "value": "action.folder.open-in-finder"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir en Finder"
+          }
         }
       },
       "comment": "Menu action title from MenuCatalog/actions.json."
@@ -29459,6 +32645,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "action.folder.reveal-in-finder"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar en Finder"
           }
         }
       },
@@ -29489,6 +32681,12 @@
             "state": "translated",
             "value": "action.ghostty.new-tab"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nueva pestaña"
+          }
         }
       },
       "comment": "Menu action title from MenuCatalog/actions.json."
@@ -29517,6 +32715,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "action.ghostty.new-window"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nueva ventana"
           }
         }
       },
@@ -29547,6 +32751,12 @@
             "state": "translated",
             "value": "action.safari.new-private-window"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nueva ventana privada"
+          }
         }
       },
       "comment": "Menu action title from MenuCatalog/actions.json."
@@ -29575,6 +32785,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nouvel onglet (Safari)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nueva pestaña"
           }
         }
       },
@@ -29605,6 +32821,12 @@
             "state": "translated",
             "value": "action.safari.new-window"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nueva ventana"
+          }
         }
       },
       "comment": "Menu action title from MenuCatalog/actions.json."
@@ -29633,6 +32855,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vider la Corbeille"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vaciar papelera"
           }
         }
       },
@@ -29663,6 +32891,12 @@
             "state": "translated",
             "value": "Ouvrir la Corbeille"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Papelera"
+          }
         }
       },
       "comment": "Menu action title from MenuCatalog/actions.json."
@@ -29691,6 +32925,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "action.vscode.new-window"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nueva ventana"
           }
         }
       },
@@ -29721,6 +32961,12 @@
             "state": "translated",
             "value": "Analyser dans Xcode"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analizar"
+          }
         }
       },
       "comment": "Menu action title from MenuCatalog/actions.json."
@@ -29749,6 +32995,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "action.xcode.clean-build-folder"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Limpiar carpeta de compilación"
           }
         }
       },
@@ -29779,6 +33031,12 @@
             "state": "translated",
             "value": "Profiler dans Xcode"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Perfilar"
+          }
         }
       },
       "comment": "Menu action title from MenuCatalog/actions.json."
@@ -29808,6 +33066,12 @@
             "state": "translated",
             "value": "Exécuter dans Xcode"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ejecutar"
+          }
         }
       },
       "comment": "Menu action title from MenuCatalog/actions.json."
@@ -29836,6 +33100,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tester dans Xcode"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Probar"
           }
         }
       },
@@ -29867,6 +33137,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "par %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "por %@"
           }
         }
       }
@@ -29904,6 +33180,12 @@
             "state": "translated",
             "value": "par %@ • %lld actions • %@"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "por %@ • %lld acciones • %@"
+          }
         }
       }
     },
@@ -29933,6 +33215,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "hérité"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "heredado"
           }
         }
       }
@@ -29964,6 +33252,12 @@
             "state": "translated",
             "value": "est au premier plan"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "está en primer plano"
+          }
         }
       }
     },
@@ -29994,6 +33288,12 @@
             "state": "translated",
             "value": "Vue Apps au style macOS Tahoe : une seule grille défilable verticalement sans limites de page. Les lignes ne sont pas utilisées."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vista de Apps estilo macOS Tahoe: una cuadrícula alta desplazable sin divisiones de página. Las filas no se usan."
+          }
         }
       }
     },
@@ -30021,6 +33321,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Docky avec toutes les fonctionnalités de base : le dock complet, les thèmes et les réglages."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acciones integradas de Docky y extensiones con scripts revisadas."
           }
         }
       },
@@ -30051,6 +33357,12 @@
             "state": "translated",
             "value": "Docky Core"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acciones principales de Docky"
+          }
         }
       },
       "comment": "Action catalog package metadata from MenuCatalog/actions.json."
@@ -30080,6 +33392,12 @@
             "state": "translated",
             "value": "Intégrations prêtes à l’emploi pour vos applications favorites."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acciones revisadas por Docky para apps y navegadores de terceros seleccionados."
+          }
         }
       },
       "comment": "Action catalog package metadata from MenuCatalog/actions.json."
@@ -30108,6 +33426,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Intégrations d’applications sélectionnées"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Integraciones de apps seleccionadas"
           }
         }
       },
@@ -30140,6 +33464,12 @@
             "state": "translated",
             "value": "à"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "a"
+          }
         }
       }
     },
@@ -30166,6 +33496,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "•"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "•"
@@ -30198,6 +33534,12 @@
             "state": "translated",
             "value": "Application"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aplicación"
+          }
         }
       }
     },
@@ -30225,6 +33567,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Langue"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Idioma"
           }
         }
       }
@@ -30254,6 +33602,12 @@
             "state": "translated",
             "value": "Suivre le système"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seguir el sistema"
+          }
         }
       }
     },
@@ -30281,6 +33635,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Docky va redémarrer pour appliquer ce changement."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Docky se reiniciará para aplicar este cambio."
           }
         }
       }
@@ -30310,6 +33670,12 @@
             "state": "translated",
             "value": "Redémarrer maintenant"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reiniciar ahora"
+          }
         }
       }
     },
@@ -30337,6 +33703,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Anglais"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inglés"
           }
         }
       }
@@ -30366,6 +33738,12 @@
             "state": "translated",
             "value": "Chinois simplifié"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chino simplificado"
+          }
         }
       }
     },
@@ -30393,6 +33771,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Chinois traditionnel (Taïwan)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chino tradicional (Taiwán)"
           }
         }
       }
@@ -30422,6 +33806,12 @@
             "state": "translated",
             "value": "Chinois traditionnel (Hong Kong)"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chino tradicional (Hong Kong)"
+          }
         }
       }
     },
@@ -30449,6 +33839,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Choisissez la langue de Docky. Si vous choisissez autre chose que Suivre le système, Docky reste dans cette langue même si vous changez celle de macOS. Docky redémarre pour que la barre de menus suive le reste de l'interface."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige el idioma en el que se ejecuta Docky. Si eliges cualquier opción distinta de Seguir el sistema, Docky se mantendrá en ese idioma aunque cambies el idioma de macOS. Docky se reinicia para que la barra de menús cambie junto con el resto de la interfaz."
           }
         }
       }

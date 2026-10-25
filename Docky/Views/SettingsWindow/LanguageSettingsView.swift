@@ -52,18 +52,17 @@ struct LanguageSettingsView: View {
             }
         }
         .formStyle(.grouped)
-        .onChange(of: selection) { _ in
-            restart()
-        }
     }
 
     private func label(for language: AppLanguage) -> String {
         language == .system ? L10n.text("Follow System") : L10n.text(language.endonym)
     }
 
+    /// Saves the pending choice, then relaunches. The choice is only persisted
+    /// here, so backing out of the pane without restarting changes nothing.
     private func restart() {
         guard isPending else { return }
         LanguageManager.shared.selected = selection
-        LanguageManager.shared.relaunchAfterChange()
+        (NSApp.delegate as? AppDelegate)?.relaunchApp()
     }
 }
